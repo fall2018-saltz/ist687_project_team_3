@@ -56,8 +56,12 @@
         {
             "desc": "-Kernel SVM\r\n-XG Boost\r\n-clustering (k-means)",
             "name": "classification_models.R"
+        },
+        {
+            "desc": "-visualize final results of data analysis",
+            "name": "final_visualization.R"
         }
     ],
-    "updated_at": "2018-10-10 18:49:40",
+    "updated_at": "2018-10-10 18:51:08",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
