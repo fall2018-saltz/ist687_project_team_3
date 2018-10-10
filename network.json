@@ -44,8 +44,12 @@
         {
             "desc": "-visualize data using ggplot (i.e. histograms, bargraphs, scatterplots, pie charts) ",
             "name": "data_visualization.R"
+        },
+        {
+            "desc": "-descriptive statistics\r\n-correlation tables",
+            "name": "mathematical_data_exploration.R"
         }
     ],
-    "updated_at": "2018-10-10 18:37:30",
+    "updated_at": "2018-10-10 18:42:34",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
