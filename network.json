@@ -52,8 +52,12 @@
         {
             "desc": "-multiple regression model (step-wise)\r\n-polynomial regressions\r\n-random forest",
             "name": "regression_models.R"
+        },
+        {
+            "desc": "-Kernel SVM\r\n-XG Boost\r\n-clustering (k-means)",
+            "name": "classification_models.R"
         }
     ],
-    "updated_at": "2018-10-10 18:47:21",
+    "updated_at": "2018-10-10 18:49:40",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
