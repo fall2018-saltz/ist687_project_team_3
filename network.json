@@ -3,7 +3,8 @@
         "amgadge",
         "chnegiz",
         "ywang",
-        "vijetmuley"
+        "vijetmuley",
+        "cjkarasi"
     ],
     "created_at": "2018-10-10 16:42:56",
     "edges": [
@@ -149,6 +150,6 @@
             "name": "visualization_graphs_3.png"
         }
     ],
-    "updated_at": "2018-10-10 19:06:58",
+    "updated_at": "2018-10-10 19:07:12",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
