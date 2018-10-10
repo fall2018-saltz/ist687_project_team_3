@@ -96,6 +96,16 @@
             ],
             "source": "clean_data.csv",
             "target": "classification_models.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "finalized_visuals",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean_data.csv",
+            "target": "final_visualization.R"
         }
     ],
     "nodes": [
@@ -139,6 +149,6 @@
             "name": "visualization_graphs_3.png"
         }
     ],
-    "updated_at": "2018-10-10 19:05:32",
+    "updated_at": "2018-10-10 19:06:58",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
