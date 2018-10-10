@@ -15,6 +15,16 @@
             ],
             "source": "raw_data.csv",
             "target": "cleaning.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleaning.R",
+            "target": "data.csv"
         }
     ],
     "nodes": [
@@ -49,6 +59,6 @@
             "name": "final_visualization.R"
         }
     ],
-    "updated_at": "2018-10-10 19:00:52",
+    "updated_at": "2018-10-10 19:01:23",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
