@@ -5,7 +5,18 @@
         "ywang"
     ],
     "created_at": "2018-10-10 16:42:56",
-    "edges": [],
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "raw_data.csv",
+            "target": "cleaning.R"
+        }
+    ],
     "nodes": [
         {
             "name": "raw_data.csv"
@@ -38,6 +49,6 @@
             "name": "final_visualization.R"
         }
     ],
-    "updated_at": "2018-10-10 18:57:10",
+    "updated_at": "2018-10-10 19:00:52",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
