@@ -2,7 +2,7 @@
     "collaborators": [
         "amgadge",
         "chnegiz",
-        "ywang401"
+        "ywang"
     ],
     "created_at": "2018-10-10 16:42:56",
     "edges": [
@@ -42,6 +42,6 @@
             "name": "cleaning.R"
         }
     ],
-    "updated_at": "2018-10-10 18:34:36",
+    "updated_at": "2018-10-10 18:35:00",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
