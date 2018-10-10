@@ -75,6 +75,16 @@
             ],
             "source": "clean_data.csv",
             "target": "mathematical_data_exploration.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "regression_model",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean_data.csv",
+            "target": "regression_models.R"
         }
     ],
     "nodes": [
@@ -118,6 +128,6 @@
             "name": "visualization_graphs_3.png"
         }
     ],
-    "updated_at": "2018-10-10 19:04:16",
+    "updated_at": "2018-10-10 19:04:36",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
