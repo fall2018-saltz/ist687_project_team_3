@@ -1,6 +1,8 @@
 {
     "collaborators": [
-        "amgadge"
+        "amgadge",
+        "chnegiz",
+        "ywang401"
     ],
     "created_at": "2018-10-10 16:42:56",
     "edges": [
@@ -36,6 +38,6 @@
             "name": "data.csv"
         }
     ],
-    "updated_at": "2018-10-10 16:42:56",
+    "updated_at": "2018-10-10 18:23:24",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
