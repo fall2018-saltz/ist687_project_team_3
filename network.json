@@ -36,8 +36,12 @@
         },
         {
             "name": "data.csv"
+        },
+        {
+            "desc": "clean data, eliminate redundancies (repeating data, irrelevant data), handle missing data/empty cells/NULL values, normalize data (i.e. mean normalization & standardization)",
+            "name": "cleaning.R"
         }
     ],
-    "updated_at": "2018-10-10 18:23:24",
+    "updated_at": "2018-10-10 18:34:36",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
