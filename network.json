@@ -35,6 +35,16 @@
             ],
             "source": "clean_data.csv",
             "target": "data_visualization.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "graph_type",
+                    "type": "png"
+                }
+            ],
+            "source": "data_visualization.R",
+            "target": "visualization_graphs_1.png"
         }
     ],
     "nodes": [
@@ -78,6 +88,6 @@
             "name": "visualization_graphs_3.png"
         }
     ],
-    "updated_at": "2018-10-10 19:02:54",
+    "updated_at": "2018-10-10 19:03:22",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
