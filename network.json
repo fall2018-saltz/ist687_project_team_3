@@ -85,6 +85,16 @@
             ],
             "source": "clean_data.csv",
             "target": "regression_models.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "classified_models",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean_data.csv",
+            "target": "classification_models.R"
         }
     ],
     "nodes": [
@@ -128,6 +138,6 @@
             "name": "visualization_graphs_3.png"
         }
     ],
-    "updated_at": "2018-10-10 19:04:36",
+    "updated_at": "2018-10-10 19:04:50",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
