@@ -26,7 +26,7 @@
                 }
             ],
             "source": "cleaning.R",
-            "target": "clean_data.csv"
+            "target": "states.csv"
         },
         {
             "ports": [
@@ -35,7 +35,7 @@
                     "type": "csv"
                 }
             ],
-            "source": "clean_data.csv",
+            "source": "states.csv",
             "target": "data_visualization.R"
         },
         {
@@ -75,7 +75,7 @@
                     "type": "csv"
                 }
             ],
-            "source": "clean_data.csv",
+            "source": "states.csv",
             "target": "mathematical_data_exploration.R"
         },
         {
@@ -85,7 +85,7 @@
                     "type": "csv"
                 }
             ],
-            "source": "clean_data.csv",
+            "source": "states.csv",
             "target": "regression_models.R"
         },
         {
@@ -95,7 +95,7 @@
                     "type": "csv"
                 }
             ],
-            "source": "clean_data.csv",
+            "source": "states.csv",
             "target": "classification_models.R"
         },
         {
@@ -105,7 +105,7 @@
                     "type": "csv"
                 }
             ],
-            "source": "clean_data.csv",
+            "source": "states.csv",
             "target": "final_visualization.R"
         },
         {
@@ -124,7 +124,7 @@
             "name": "raw_data.csv"
         },
         {
-            "name": "clean_data.csv"
+            "name": "states.csv"
         },
         {
             "name": "visualization_graphs_1.png"
@@ -175,6 +175,6 @@
             "name": "final_visualization.png"
         }
     ],
-    "updated_at": "2018-10-11 15:08:30",
+    "updated_at": "2018-10-11 15:28:55",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
