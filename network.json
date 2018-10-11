@@ -154,12 +154,6 @@
             "task_status": "proposed"
         },
         {
-            "assigned_to": "vijetmuley",
-            "desc": "-multiple regression model (step-wise)\r\n-polynomial regressions\r\n-random forest",
-            "name": "regression_models.R",
-            "task_status": "proposed"
-        },
-        {
             "assigned_to": "cjkarasi",
             "desc": "-Kernel SVM\r\n-XG Boost\r\n-clustering (k-means)",
             "name": "classification_models.R",
@@ -173,8 +167,14 @@
         },
         {
             "name": "final_visualization.png"
+        },
+        {
+            "assigned_to": "vijetmuley",
+            "desc": "-multiple regression model (step-wise)\r\n-polynomial regressions\r\n-random forest\r\n-Logistics regressions",
+            "name": "regression_models.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-11 15:29:22",
+    "updated_at": "2018-10-11 16:13:39",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
