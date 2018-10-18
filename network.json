@@ -31,46 +31,6 @@
         {
             "ports": [
                 {
-                    "input": "cleaned_visualization",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean_data.csv",
-            "target": "data_visualization.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "graph_type",
-                    "type": "png"
-                }
-            ],
-            "source": "data_visualization.R",
-            "target": "visualization_graphs_1.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "graph_type",
-                    "type": "png"
-                }
-            ],
-            "source": "data_visualization.R",
-            "target": "visualization_graphs_2.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "graph_type",
-                    "type": "png"
-                }
-            ],
-            "source": "data_visualization.R",
-            "target": "visualization_graphs_3.png"
-        },
-        {
-            "ports": [
-                {
                     "input": "mathematical_exploration",
                     "type": "csv"
                 }
@@ -136,27 +96,9 @@
             "name": "visualization_graphs_3.png"
         },
         {
-            "assigned_to": "amgadge",
-            "desc": "clean data, eliminate redundancies (repeating data, irrelevant data), handle missing data/empty cells/NULL values, normalize data (i.e. mean normalization & standardization)",
-            "name": "cleaning.R",
-            "task_status": "proposed"
-        },
-        {
-            "assigned_to": "chnegiz",
-            "desc": "-visualize data using ggplot (i.e. histograms, bargraphs, scatterplots, pie charts) ",
-            "name": "data_visualization.R",
-            "task_status": "proposed"
-        },
-        {
             "assigned_to": "ywang",
             "desc": "-descriptive statistics\r\n-correlation tables",
             "name": "mathematical_data_exploration.R",
-            "task_status": "proposed"
-        },
-        {
-            "assigned_to": "vijetmuley",
-            "desc": "-multiple regression model (step-wise)\r\n-polynomial regressions\r\n-random forest",
-            "name": "regression_models.R",
             "task_status": "proposed"
         },
         {
@@ -173,8 +115,50 @@
         },
         {
             "name": "final_visualization.png"
+        },
+        {
+            "assigned_to": "vijetmuley",
+            "desc": "-multiple regression model (step-wise)\r\n-polynomial regressions\r\n-random forest\r\n-Logistics regressions",
+            "name": "regression_models.R",
+            "task_status": "proposed"
+        },
+        {
+            "assigned_to": "chnegiz",
+            "desc": "clean data, handle missing data/empty cells/NULL values, normalize data (i.e. mean normalization & standardization)",
+            "name": "cleaning.R",
+            "task_status": "not started"
+        },
+        {
+            "assigned_to": "vijetmuley",
+            "desc": "",
+            "name": "maps.R",
+            "task_status": "not started"
+        },
+        {
+            "assigned_to": "chnegiz",
+            "desc": "",
+            "name": "piecharts.R",
+            "task_status": "not started"
+        },
+        {
+            "assigned_to": "ywang",
+            "desc": "",
+            "name": "histogram.R",
+            "task_status": "not started"
+        },
+        {
+            "assigned_to": "cjkarasi",
+            "desc": "",
+            "name": "bargraph.R",
+            "task_status": "not started"
+        },
+        {
+            "assigned_to": "amgadge",
+            "desc": "",
+            "name": "scatterplots.R",
+            "task_status": "not started"
         }
     ],
-    "updated_at": "2018-10-11 15:08:30",
+    "updated_at": "2018-10-18 15:43:37",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
