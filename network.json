@@ -181,8 +181,12 @@
         {
             "desc": "",
             "name": "histogram.R"
+        },
+        {
+            "desc": "",
+            "name": "bargraph.R"
         }
     ],
-    "updated_at": "2018-10-18 15:40:53",
+    "updated_at": "2018-10-18 15:40:59",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
