@@ -173,12 +173,8 @@
             "desc": "-multiple regression model (step-wise)\r\n-polynomial regressions\r\n-random forest\r\n-Logistics regressions",
             "name": "regression_models.R",
             "task_status": "proposed"
-        },
-        {
-            "desc": "",
-            "name": "missingdata_redundancies.R"
         }
     ],
-    "updated_at": "2018-10-18 15:37:57",
+    "updated_at": "2018-10-18 15:38:44",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
