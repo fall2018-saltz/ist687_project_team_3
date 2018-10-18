@@ -136,18 +136,6 @@
             "name": "visualization_graphs_3.png"
         },
         {
-            "assigned_to": "amgadge",
-            "desc": "clean data, eliminate redundancies (repeating data, irrelevant data), handle missing data/empty cells/NULL values, normalize data (i.e. mean normalization & standardization)",
-            "name": "cleaning.R",
-            "task_status": "proposed"
-        },
-        {
-            "assigned_to": "chnegiz",
-            "desc": "-visualize data using ggplot (i.e. histograms, bargraphs, scatterplots, pie charts) ",
-            "name": "data_visualization.R",
-            "task_status": "proposed"
-        },
-        {
             "assigned_to": "ywang",
             "desc": "-descriptive statistics\r\n-correlation tables",
             "name": "mathematical_data_exploration.R",
@@ -173,8 +161,24 @@
             "desc": "-multiple regression model (step-wise)\r\n-polynomial regressions\r\n-random forest\r\n-Logistics regressions",
             "name": "regression_models.R",
             "task_status": "proposed"
+        },
+        {
+            "assigned_to": "chnegiz",
+            "desc": "clean data, handle missing data/empty cells/NULL values, normalize data (i.e. mean normalization & standardization)",
+            "name": "cleaning.R",
+            "task_status": "not started"
+        },
+        {
+            "assigned_to": "chnegiz",
+            "desc": "-visualize data using ggplot (i.e. histograms, bargraphs, scatterplots, pie charts, maps) ",
+            "name": "data_visualization.R",
+            "task_status": "proposed"
+        },
+        {
+            "desc": "",
+            "name": "maps.R"
         }
     ],
-    "updated_at": "2018-10-18 15:38:44",
+    "updated_at": "2018-10-18 15:40:46",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
