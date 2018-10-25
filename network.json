@@ -77,6 +77,16 @@
             ],
             "source": "final_visualization.R",
             "target": "final_visualization.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "satisfactionSurvey.csv",
+            "target": "cleaning_2.R"
         }
     ],
     "nodes": [
@@ -165,6 +175,6 @@
             "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-25 15:38:52",
+    "updated_at": "2018-10-25 16:06:01",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
