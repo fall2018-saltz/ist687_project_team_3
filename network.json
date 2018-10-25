@@ -15,8 +15,8 @@
                     "type": "csv"
                 }
             ],
-            "source": "raw_data.csv",
-            "target": "cleaning.R"
+            "source": "satisfactionSurvey.csv",
+            "target": "cleaning_1.R"
         },
         {
             "ports": [
@@ -25,7 +25,7 @@
                     "type": "csv"
                 }
             ],
-            "source": "cleaning.R",
+            "source": "cleaning_1.R",
             "target": "clean_data.csv"
         },
         {
@@ -81,7 +81,7 @@
     ],
     "nodes": [
         {
-            "name": "raw_data.csv"
+            "name": "satisfactionSurvey.csv"
         },
         {
             "name": "clean_data.csv"
@@ -123,42 +123,48 @@
             "task_status": "proposed"
         },
         {
+            "assigned_to": "amgadge",
+            "desc": "",
+            "name": "scatterplots.R",
+            "task_status": "not started"
+        },
+        {
             "assigned_to": "chnegiz",
             "desc": "clean data, handle missing data/empty cells/NULL values, normalize data (i.e. mean normalization & standardization)",
-            "name": "cleaning.R",
-            "task_status": "not started"
+            "name": "cleaning_1.R",
+            "task_status": "in progress"
         },
         {
             "assigned_to": "vijetmuley",
             "desc": "",
             "name": "maps.R",
-            "task_status": "not started"
+            "task_status": "proposed"
         },
         {
             "assigned_to": "chnegiz",
             "desc": "",
             "name": "piecharts.R",
-            "task_status": "not started"
+            "task_status": "proposed"
         },
         {
             "assigned_to": "ywang",
             "desc": "",
             "name": "histogram.R",
-            "task_status": "not started"
+            "task_status": "proposed"
         },
         {
             "assigned_to": "cjkarasi",
             "desc": "",
             "name": "bargraph.R",
-            "task_status": "not started"
+            "task_status": "proposed"
         },
         {
             "assigned_to": "amgadge",
             "desc": "",
-            "name": "scatterplots.R",
-            "task_status": "not started"
+            "name": "cleaning_2.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-18 15:43:37",
+    "updated_at": "2018-10-25 15:38:52",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
