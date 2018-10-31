@@ -9,7 +9,7 @@ df1<- df %>%
                   ,max= max(as.numeric(Satisfaction)),min= min(as.numeric(Satisfaction)))
 #plotting Satisfaction based on airlineStatus
 plot1 <- ggplot(df,aes(Airline.Status,fill=Satisfaction))+
-                    geom_col()
+                    geom_bar()
 #in R studio the graph is coloured properly based on Satisfaction
 
 #looking at Satisfaction = 5
