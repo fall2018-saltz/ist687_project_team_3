@@ -4,6 +4,7 @@ library(dplyr)
 plot1 <- ggplot(df,aes(Airline.Status,fill=Satisfaction))+
                 geom_bar()
 
-df%>% filter
+    df %>% 
+        filter(Satisfaction=='1') %>%
                 
 plot2 <-
