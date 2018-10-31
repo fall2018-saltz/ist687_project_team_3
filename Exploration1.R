@@ -1,5 +1,6 @@
 
 library(dplyr)
+#summarizing dataframe
 df1<- df %>% 
         filter(Flight.cancelled=='0') %>%
         group_by(Airline.Status) %>%
@@ -11,3 +12,4 @@ plot1 <- ggplot(df,aes(Airline.Status,fill=Satisfaction))+
                 geom_bar()
 
 
+#looking at Satisfaction = 5
