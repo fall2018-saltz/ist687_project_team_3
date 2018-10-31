@@ -190,11 +190,11 @@
         },
         {
             "assigned_to": "amgadge",
-            "desc": "Exploration and visualizing Airline Status,",
+            "desc": "Exploration and visualizing Airline Status, Age",
             "name": "Exploration1.R",
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-31 20:30:00",
+    "updated_at": "2018-10-31 20:40:46",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
