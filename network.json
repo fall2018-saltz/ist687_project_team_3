@@ -170,11 +170,11 @@
         },
         {
             "assigned_to": "amgadge",
-            "desc": "plotting various scatterplots",
+            "desc": "visualizing Airline Status",
             "name": "scatterplots.R",
             "task_status": "not started"
         }
     ],
-    "updated_at": "2018-10-31 17:05:16",
+    "updated_at": "2018-10-31 17:06:20",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
