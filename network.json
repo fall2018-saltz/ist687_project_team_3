@@ -133,12 +133,6 @@
             "task_status": "proposed"
         },
         {
-            "assigned_to": "amgadge",
-            "desc": "",
-            "name": "scatterplots.R",
-            "task_status": "not started"
-        },
-        {
             "assigned_to": "chnegiz",
             "desc": "clean data, handle missing data/empty cells/NULL values, normalize data (i.e. mean normalization & standardization)",
             "name": "cleaning_1.R",
@@ -173,8 +167,14 @@
             "desc": "Encoding categorical variables,\r\nseprating date into months and inserting new coloumn as month,\r\nremoving erroneuous rows/ outliers",
             "name": "cleaning_2.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "amgadge",
+            "desc": "plotting various scatterplots",
+            "name": "scatterplots.R",
+            "task_status": "not started"
         }
     ],
-    "updated_at": "2018-10-31 05:26:53",
+    "updated_at": "2018-10-31 17:05:16",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
