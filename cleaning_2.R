@@ -1,5 +1,6 @@
 
-df$Gender = factor(df$Gender,
+# Encoding categorical variables
+sdf$Gender = factor(df$Gender,
                          levels = c('Female','Male'),
                          labels = c(0, 1))
 df$Airline.Status =  factor(df$Airline.Status,
