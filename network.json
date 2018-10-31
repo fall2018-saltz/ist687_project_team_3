@@ -170,11 +170,11 @@
         },
         {
             "assigned_to": "amgadge",
-            "desc": "",
+            "desc": "Encoding categorical variables,\r\nseprating date into months and inserting new coloumn as month,\r\nremoving erroneuous rows/ outliers",
             "name": "cleaning_2.R",
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-31 05:25:32",
+    "updated_at": "2018-10-31 05:26:53",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
