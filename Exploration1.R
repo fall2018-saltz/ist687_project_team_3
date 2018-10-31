@@ -3,7 +3,7 @@ library(dplyr)
 library(ggplot2)
 #summarizing dataframe
 df1<- df %>% 
-        filter(Flight.cancelled=='0') %>%
+        #filter(Flight.cancelled=='0') %>%
         group_by(Airline.Status) %>%
         summarise(n=n(),mean= mean(as.numeric(Satisfaction)),sd= sd(as.numeric(Satisfaction))
                   ,max= max(as.numeric(Satisfaction)),min= min(as.numeric(Satisfaction)))
