@@ -1,5 +1,6 @@
 
 library(dplyr)
+library(ggplot2)
 #summarizing dataframe
 df1<- df %>% 
         filter(Flight.cancelled=='0') %>%
