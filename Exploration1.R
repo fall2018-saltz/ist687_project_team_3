@@ -13,8 +13,7 @@
 
 
 #looking at Satisfaction = 5
-#df2 <- df %>%
-#        filter(Satisfaction=='5')%>%
-#        group_by(Airline.Status) %>%
-#        summarise(n=n())
-#df2       
+df2<-df %>%
+      #filter(Satisfaction==5)%>%
+      group_by(Airline.Status) %>%
+      summarise(ratio=sum(Satisfaction==5)/n())
