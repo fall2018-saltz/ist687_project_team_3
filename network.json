@@ -96,7 +96,7 @@
                 }
             ],
             "source": "clean_data.csv",
-            "target": "scatterplots.R"
+            "target": "plot1.R"
         }
     ],
     "nodes": [
@@ -180,11 +180,11 @@
         },
         {
             "assigned_to": "amgadge",
-            "desc": "visualizing Airline Status",
-            "name": "scatterplots.R",
+            "desc": "visualizing Airline Status,",
+            "name": "plot1.R",
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-31 17:07:10",
+    "updated_at": "2018-10-31 17:07:32",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
