@@ -15,4 +15,5 @@ plot1 <- ggplot(df,aes(Airline.Status,fill=Satisfaction))+
 #looking at Satisfaction = 5
 df <- df %>%
         filter(Satisfaction=='5')%>%
-        summarise(n=n(),
+        group_by(Airline.Status) %>%
+        summarise(n=n())
