@@ -17,3 +17,4 @@ df2<-df %>%
       #filter(Satisfaction==5)%>%
       group_by(Airline.Status) %>%
       summarise(ratio=sum(Satisfaction==5)/n())
+#this shows that for higher airline status people are more likely to give 5 rating.
