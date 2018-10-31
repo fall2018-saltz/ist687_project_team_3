@@ -21,16 +21,6 @@
         {
             "ports": [
                 {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "cleaning_1.R",
-            "target": "clean_data.csv"
-        },
-        {
-            "ports": [
-                {
                     "input": "mathematical_exploration",
                     "type": "csv"
                 }
@@ -87,6 +77,16 @@
             ],
             "source": "satisfactionSurvey.csv",
             "target": "cleaning_2.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "df",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleaning_2.R",
+            "target": "clean_data.csv"
         }
     ],
     "nodes": [
@@ -172,9 +172,9 @@
             "assigned_to": "amgadge",
             "desc": "",
             "name": "cleaning_2.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 16:06:01",
+    "updated_at": "2018-10-31 05:25:32",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
