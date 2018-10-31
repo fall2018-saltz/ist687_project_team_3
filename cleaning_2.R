@@ -1,4 +1,5 @@
 
+df<-raw_data
 # Encoding categorical variables
 df$Gender = factor(df$Gender,
                          levels = c('Female','Male'),
