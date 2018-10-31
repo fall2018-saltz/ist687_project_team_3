@@ -87,6 +87,16 @@
             ],
             "source": "cleaning_2.R",
             "target": "clean_data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean_data.csv",
+            "target": "scatterplots.R"
         }
     ],
     "nodes": [
@@ -172,9 +182,9 @@
             "assigned_to": "amgadge",
             "desc": "visualizing Airline Status",
             "name": "scatterplots.R",
-            "task_status": "not started"
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-31 17:06:20",
+    "updated_at": "2018-10-31 17:07:10",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
