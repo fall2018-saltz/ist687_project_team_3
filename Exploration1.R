@@ -18,9 +18,9 @@ df2<-df %>%
       group_by(Airline.Status) %>%
       summarise(ratio=sum(Satisfaction==5)/n())
 #this shows that for higher airline status people are more likely to give 5 rating.
-
+summary(df$Gender)
 #Exploring Age column
-summary(df$Age)
+#summary(df$Age)
 
 plot2<-ggplot(df,aes(x=Age[which(Satisfaction==1)],y=Satisfaction[which(Satisfaction==1)]))+
         geom_jitter()
