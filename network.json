@@ -127,6 +127,16 @@
             ],
             "source": "Exploration1.R",
             "target": "ageVsSatisfact.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot3",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploration1.R",
+            "target": "plot3.png"
         }
     ],
     "nodes": [
@@ -221,6 +231,6 @@
             "name": "plot3.png"
         }
     ],
-    "updated_at": "2018-11-01 14:11:08",
+    "updated_at": "2018-11-01 14:11:38",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
