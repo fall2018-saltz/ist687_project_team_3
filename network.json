@@ -111,7 +111,7 @@
         {
             "ports": [
                 {
-                    "input": "data_maps",
+                    "input": "raw_data",
                     "type": "csv"
                 }
             ],
@@ -172,7 +172,7 @@
             "assigned_to": "vijetmuley",
             "desc": "",
             "name": "maps.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
         },
         {
             "assigned_to": "chnegiz",
@@ -205,6 +205,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-01 05:01:53",
+    "updated_at": "2018-11-01 05:15:37",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
