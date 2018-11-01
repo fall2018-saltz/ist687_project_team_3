@@ -33,4 +33,5 @@ mean5<- mean(df5$Age)]
 #the middle age group is likely to give higher rating compared to others
 
 # Exploring Gender 
+summary(df$Gender)
 
