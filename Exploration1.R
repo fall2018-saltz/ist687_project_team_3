@@ -22,8 +22,8 @@ df2<-df %>%
 #Exploring Age column
 #summary(df$Age)
 
-plot2<-ggplot(df,aes(x=Age[which(Satisfaction==1)],y=Satisfaction[which(Satisfaction==1)]))+
-        geom_jitter()
+#plot2<-ggplot(df,aes(x=Age[which(Satisfaction==1)],y=Satisfaction[which(Satisfaction==1)]))+
+#        geom_jitter()
 df3 <- df[df$Age<21,]
 mean1<- mean(df3$Age)
 df4 <- df[between(df$Age,21,40),]
