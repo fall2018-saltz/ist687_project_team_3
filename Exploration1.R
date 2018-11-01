@@ -20,9 +20,11 @@ df2<-df %>%
       group_by(Airline.Status) %>%
       summarise(ratio=sum(Satisfaction==5)/n())
 #this shows that for higher airline status people are more likely to give 5 rating.
+
 ###############################################
 #Exploring based on Age column
 ###############################################
+
 #summary(df$Age)
 plot2<-ggplot(df,aes(x=Age,fill=Satisfaction))+
         geom_bar()
@@ -37,6 +39,7 @@ mean5<- mean(df5$Age)
 ###############################################
 #Exploring based on Gender
 ###############################################
+
 df6<-df %>%
     group_by(Gender)%>%
     summarise(probability= sum(Satisfaction==5)/n())
@@ -45,7 +48,10 @@ df6<-df %>%
 #plotting Satisfaction based on Gender
 plot3 <- ggplot(df,aes(x=Gender,fill = Satisfaction))+
             geom_bar(position="fill")
-            
+
+###############################################
+#Exploring based on Price Senisitivity
+###############################################            
 plot4<- ggplot(df,aes(as.numeric(as.character(Price.Sensitivity)),fill=Satisfaction))+
   geom_bar()+
   xlab('Price Sensitivity')            
