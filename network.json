@@ -216,8 +216,11 @@
             "desc": "Exploration and visualizing Airline Status, Age, Gender",
             "name": "Exploration1.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "plot3.png"
         }
     ],
-    "updated_at": "2018-11-01 14:02:20",
+    "updated_at": "2018-11-01 14:11:08",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
