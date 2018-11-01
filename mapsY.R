@@ -1,5 +1,6 @@
 
 df <- raw_data
 
-source_fl <- df$Orgin.City
-dest_fl <- df$Destination.City
+source_fl <- unique(df$Orgin.City)
+dest_fl <- unique(df$Destination.City)
+
