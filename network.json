@@ -107,6 +107,16 @@
             ],
             "source": "Exploration1.R",
             "target": "visualization_graphs_1.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data_maps",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean_data.csv",
+            "target": "maps.R"
         }
     ],
     "nodes": [
@@ -195,6 +205,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-31 20:48:44",
+    "updated_at": "2018-11-01 05:01:53",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
