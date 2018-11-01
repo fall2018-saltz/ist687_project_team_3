@@ -37,6 +37,6 @@ df6<-df %>%
     group_by(Gender)%>%
     summarise(probability= sum(Satisfaction==5)/n())
 #males are more likely to give higher ratings 
-
+#plotting Satisfaction based on Gender
 plot3 <- ggplot(df,aes(x=Gender,fill = Satisfaction))+
             geom_bar()
