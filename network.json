@@ -51,26 +51,6 @@
         {
             "ports": [
                 {
-                    "input": "finalized_visuals",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean_data.csv",
-            "target": "final_visualization.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "final_visualization",
-                    "type": "png"
-                }
-            ],
-            "source": "final_visualization.R",
-            "target": "final_visualization.png"
-        },
-        {
-            "ports": [
-                {
                     "input": "raw_data",
                     "type": "csv"
                 }
@@ -116,7 +96,47 @@
                 }
             ],
             "source": "clean_data.csv",
-            "target": "maps.R"
+            "target": "mapsY.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot3",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploration1.R",
+            "target": "GenderSatisfactions.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean_data.csv",
+            "target": "ExplorationV.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean_data.csv",
+            "target": "ExplorationCK.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot2",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploration1.R",
+            "target": "AgeSatisfaction.png"
         }
     ],
     "nodes": [
@@ -169,21 +189,9 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "vijetmuley",
-            "desc": "",
-            "name": "maps.R",
-            "task_status": "in progress"
-        },
-        {
             "assigned_to": "chnegiz",
             "desc": "",
             "name": "piecharts.R",
-            "task_status": "proposed"
-        },
-        {
-            "assigned_to": "ywang",
-            "desc": "",
-            "name": "histogram.R",
             "task_status": "proposed"
         },
         {
@@ -199,12 +207,43 @@
             "task_status": "validating"
         },
         {
+            "name": "ageVsSatisfact.png"
+        },
+        {
             "assigned_to": "amgadge",
-            "desc": "Exploration and visualizing Airline Status, Age",
+            "desc": "Exploration and visualizing Airline Status, Age, Gender",
             "name": "Exploration1.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "GenderSatisfactions.png"
+        },
+        {
+            "desc": "Eating and drinking visualizations",
+            "name": "EatingAndDrinking.R"
+        },
+        {
+            "assigned_to": "vijetmuley",
+            "desc": "Exploration and visualizing No of flights p.a, %flights with other, No of other loyalty cards, Shopping amount",
+            "name": "ExplorationV.R",
+            "task_status": "proposed"
+        },
+        {
+            "assigned_to": "ywang",
+            "desc": "Using maps for visualization ",
+            "name": "mapsY.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "cjkarasi",
+            "desc": "Scheduled departure hour, departure delay in minutes, eating and drinking at the airport, class, day of month ",
+            "name": "ExplorationCK.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "AgeSatisfaction.png"
         }
     ],
-    "updated_at": "2018-11-01 05:15:37",
+    "updated_at": "2018-11-01 15:35:10",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
