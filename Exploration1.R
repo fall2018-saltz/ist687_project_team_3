@@ -62,3 +62,5 @@ plot4<- ggplot(df,aes(as.numeric(as.character(Price.Sensitivity)),fill=Satisfact
 plot5<- ggplot(df,aes(Year.of.First.Flight,fill=Satisfaction))+
   geom_bar(position= 'fill')+
   ylab('values')
+  
+# From the plot it can be seen that there is not much difference based on when was the first flight was taken\  
