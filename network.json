@@ -203,8 +203,11 @@
             "desc": "Exploration and visualizing Airline Status, Age",
             "name": "Exploration1.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "ageVsSatisfact.png"
         }
     ],
-    "updated_at": "2018-11-01 05:15:37",
+    "updated_at": "2018-11-01 14:01:41",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
