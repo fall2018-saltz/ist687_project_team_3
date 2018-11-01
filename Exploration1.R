@@ -9,7 +9,7 @@ df1<- df %>%
                   ,max= max(as.numeric(Satisfaction)),min= min(as.numeric(Satisfaction)))
 #plotting Satisfaction based on airlineStatus
 plot1 <- ggplot(df,aes(Airline.Status,fill=Satisfaction))+
-                    geom_bar()
+                    geom_bar(position="fill")
 #in R studio the graph is coloured properly based on Satisfaction
 
 #looking at Satisfaction = 5
@@ -39,7 +39,7 @@ df6<-df %>%
 
 #plotting Satisfaction based on Gender
 plot3 <- ggplot(df,aes(x=Gender,fill = Satisfaction))+
-            geom_bar()
+            geom_bar(position="fill")
             
 plot4<- ggplot(df,aes(as.numeric(as.character(Price.Sensitivity)),fill=Satisfaction))+
   geom_bar()+
