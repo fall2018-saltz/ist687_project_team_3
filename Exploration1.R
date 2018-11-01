@@ -34,7 +34,7 @@ df4 <- df[between(df$Age,21,40),]
 mean4<- mean(df4$Age)
 df5 <- df[df$Age>=40,]
 mean5<- mean(df5$Age)
-#the middle age group is likely to give higher rating compared to others
+#the middle age group is more likely to give higher rating compared to others
 
 ###############################################
 #Exploring based on Gender
