@@ -2,7 +2,7 @@
 library(dplyr)
 library(ggplot2)
 ###############################################
-#summarizing based on flight Status
+#Exploring based on flight Status
 df1<- df %>% 
         #filter(Flight.cancelled=='0') %>%
         group_by(Airline.Status) %>%
