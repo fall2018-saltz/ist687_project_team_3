@@ -56,7 +56,7 @@ plot3 <- ggplot(df,aes(x=Gender,fill = Satisfaction))+
 plot4<- ggplot(df,aes(as.numeric(as.character(Price.Sensitivity)),fill=Satisfaction))+
   geom_bar(position= 'fill')+
   xlab('Price Sensitivity')+
-  ylab('values'))            
+  ylab('values')         
 # From the plot it can be seen that higher price Sensitivity worsen the Satisfaction of the customer        
 ###############################################
 #Exploring based on year of first flight
