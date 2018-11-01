@@ -18,7 +18,7 @@ df2<-df %>%
       group_by(Airline.Status) %>%
       summarise(ratio=sum(Satisfaction==5)/n())
 #this shows that for higher airline status people are more likely to give 5 rating.
-summary(df$Gender)
+
 #Exploring Age column
 #summary(df$Age)
 
@@ -33,5 +33,4 @@ mean5<- mean(df5$Age)
 #the middle age group is likely to give higher rating compared to others
 
 # Exploring Gender 
-summary(df$Gender)
-
+df %>%
