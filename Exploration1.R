@@ -41,3 +41,5 @@ df6<-df %>%
 #plotting Satisfaction based on Gender
 plot3 <- ggplot(df,aes(x=Gender,fill = Satisfaction))+
             geom_bar()
+            
+            
