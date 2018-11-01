@@ -24,4 +24,6 @@ plot2<-ggplot(df,aes(x=Age[which(Satisfaction==1)],y=Satisfaction[which(Satisfac
 df3 <- df[df$Age<21,]
 mean1<- mean(df3$Age)
 df4 <- df[between(df$Age,21,40),]
-df5 <- df[df$Age>=40,]
+mean4<- mean(df4$Age)
+df5 <- df[df$Age>=40,
+mean5<- mean(df5$Age)]
