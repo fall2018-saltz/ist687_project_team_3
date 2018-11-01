@@ -171,12 +171,6 @@
             "task_status": "proposed"
         },
         {
-            "assigned_to": "ywang",
-            "desc": "",
-            "name": "histogram.R",
-            "task_status": "proposed"
-        },
-        {
             "assigned_to": "cjkarasi",
             "desc": "",
             "name": "bargraph.R",
@@ -203,8 +197,14 @@
         {
             "desc": "Eating and drinking visualizations",
             "name": "EatingAndDrinking.R"
+        },
+        {
+            "assigned_to": "ywang",
+            "desc": "Exploration and visualizing No of flights p.a, %flights with other, No of other loyalty cards, Shopping amount",
+            "name": "ExplorationY.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-11-01 15:21:19",
+    "updated_at": "2018-11-01 15:25:02",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
