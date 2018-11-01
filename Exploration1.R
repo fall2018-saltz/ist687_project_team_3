@@ -35,4 +35,4 @@ mean5<- mean(df5$Age)
 # Exploring Gender 
 df %>%
     group_by(Gender)%>%
-    summarise(mean= mean(Satisfaction)
+    summarise(mean= mean(Satisfaction))
