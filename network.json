@@ -229,8 +229,11 @@
             "desc": "Scheduled departure hour, departure delay in minutes, eating and drinking at the airport, class, day of month ",
             "name": "ExplorationCK.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "plot2.png"
         }
     ],
-    "updated_at": "2018-11-01 15:30:06",
+    "updated_at": "2018-11-01 15:32:16",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
