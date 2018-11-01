@@ -12,7 +12,7 @@ df1<- df %>%
 #plotting Satisfaction based on airlineStatus
 plot1 <- ggplot(df,aes(Airline.Status,fill=Satisfaction))+
                     geom_bar(position="fill")
-#in R studio the graph is coloured properly based on Satisfaction
+#NOTE - in R studio the graph is coloured properly based on Satisfaction
 
 #looking at Satisfaction = 5
 df2<-df %>%
@@ -51,14 +51,16 @@ plot3 <- ggplot(df,aes(x=Gender,fill = Satisfaction))+
 
 ###############################################
 #Exploring based on Price Senisitivity
-###############################################            
+###############################################    
 plot4<- ggplot(df,aes(as.numeric(as.character(Price.Sensitivity)),fill=Satisfaction))+
-  geom_bar()+
-  xlab('Price Sensitivity')            
+  geom_bar(position= 'fill')+
+  xlab('Price Sensitivity')+
+  ylab('values'))            
             
 ###############################################
 #Exploring based on year of first flight
-###############################################            
+############################################### 
+
 plot5<- ggplot(df,aes(Year.of.First.Flight,fill=Satisfaction))+
   geom_bar(position= 'fill')+
   ylab('values')
