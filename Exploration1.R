@@ -21,7 +21,6 @@ df2<-df %>%
 
 #Exploring Age column
 #summary(df$Age)
-
 plot2<-ggplot(df,aes(x=Age,fill=Satisfaction))+
         geom_bar()
 df3 <- df[df$Age<21,]
