@@ -136,7 +136,7 @@
                 }
             ],
             "source": "Exploration1.R",
-            "target": "plot2.png"
+            "target": "AgeSatisfaction.png"
         }
     ],
     "nodes": [
@@ -241,9 +241,9 @@
             "task_status": "in progress"
         },
         {
-            "name": "plot2.png"
+            "name": "AgeSatisfaction.png"
         }
     ],
-    "updated_at": "2018-11-01 15:34:53",
+    "updated_at": "2018-11-01 15:35:10",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
