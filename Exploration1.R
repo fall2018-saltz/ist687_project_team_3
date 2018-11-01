@@ -41,4 +41,8 @@ df6<-df %>%
 plot3 <- ggplot(df,aes(x=Gender,fill = Satisfaction))+
             geom_bar()
             
+plot4<- ggplot(df,aes(as.numeric(as.character(Price.Sensitivity)),fill=Satisfaction))+
+  geom_bar()+
+  xlab('Price Sensitivity')            
+            
             
