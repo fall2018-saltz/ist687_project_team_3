@@ -106,7 +106,7 @@
                 }
             ],
             "source": "Exploration1.R",
-            "target": "plot3.png"
+            "target": "GenderSatisfactions.png"
         },
         {
             "ports": [
@@ -216,7 +216,7 @@
             "task_status": "in progress"
         },
         {
-            "name": "plot3.png"
+            "name": "GenderSatisfactions.png"
         },
         {
             "desc": "Eating and drinking visualizations",
@@ -244,6 +244,6 @@
             "name": "plot2.png"
         }
     ],
-    "updated_at": "2018-11-01 15:33:19",
+    "updated_at": "2018-11-01 15:34:53",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
