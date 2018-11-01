@@ -156,7 +156,7 @@
                 }
             ],
             "source": "Exploration1.R",
-            "target": "visualization_graphs_3.png"
+            "target": "YearOfFirstFlightSatisfaction.png"
         }
     ],
     "nodes": [
@@ -173,7 +173,7 @@
             "name": "visualization_graphs_2.png"
         },
         {
-            "name": "visualization_graphs_3.png"
+            "name": "YearOfFirstFlightSatisfaction.png"
         },
         {
             "assigned_to": "ywang",
@@ -267,6 +267,6 @@
             "name": "PriceSensitivitySatisfaction.png"
         }
     ],
-    "updated_at": "2018-11-01 16:17:34",
+    "updated_at": "2018-11-01 16:18:00",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
