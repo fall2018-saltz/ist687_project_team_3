@@ -38,5 +38,5 @@ df %>%
     summarise(mean= mean(Satisfaction))
 #males are more likely to give higher ratings 
 
-plot3 <- ggplot(df,aes(Gender,fill = Satisfaction))+
+plot3 <- ggplot(df,aes(x=Gender,fill = Satisfaction))+
             geom_bar()
