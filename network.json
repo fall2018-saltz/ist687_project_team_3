@@ -107,6 +107,16 @@
             ],
             "source": "Exploration1.R",
             "target": "plot3.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean_data.csv",
+            "target": "ExplorationV.R"
         }
     ],
     "nodes": [
@@ -205,6 +215,6 @@
             "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-11-01 15:26:03",
+    "updated_at": "2018-11-01 15:26:18",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
