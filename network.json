@@ -159,12 +159,6 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "vijetmuley",
-            "desc": "",
-            "name": "maps.R",
-            "task_status": "in progress"
-        },
-        {
             "assigned_to": "chnegiz",
             "desc": "",
             "name": "piecharts.R",
@@ -203,8 +197,14 @@
             "desc": "Exploration and visualizing No of flights p.a, %flights with other, No of other loyalty cards, Shopping amount",
             "name": "ExplorationY.R",
             "task_status": "proposed"
+        },
+        {
+            "assigned_to": "ywang",
+            "desc": "",
+            "name": "maps.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-01 15:25:02",
+    "updated_at": "2018-11-01 15:25:46",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
