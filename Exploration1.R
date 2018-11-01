@@ -36,3 +36,5 @@ mean5<- mean(df5$Age)
 df %>%
     group_by(Gender)%>%
     summarise(mean= mean(Satisfaction))
+    
+#males are more likely to give higher ratings     
