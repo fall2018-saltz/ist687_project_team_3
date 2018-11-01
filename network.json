@@ -117,6 +117,16 @@
             ],
             "source": "clean_data.csv",
             "target": "maps.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot2",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploration1.R",
+            "target": "ageVsSatisfact.png"
         }
     ],
     "nodes": [
@@ -208,6 +218,6 @@
             "name": "ageVsSatisfact.png"
         }
     ],
-    "updated_at": "2018-11-01 14:01:41",
+    "updated_at": "2018-11-01 14:02:02",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
