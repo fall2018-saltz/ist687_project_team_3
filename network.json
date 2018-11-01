@@ -51,26 +51,6 @@
         {
             "ports": [
                 {
-                    "input": "finalized_visuals",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean_data.csv",
-            "target": "final_visualization.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "final_visualization",
-                    "type": "png"
-                }
-            ],
-            "source": "final_visualization.R",
-            "target": "final_visualization.png"
-        },
-        {
-            "ports": [
-                {
                     "input": "raw_data",
                     "type": "csv"
                 }
@@ -117,16 +97,6 @@
             ],
             "source": "clean_data.csv",
             "target": "maps.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "plot2",
-                    "type": "png"
-                }
-            ],
-            "source": "Exploration1.R",
-            "target": "ageVsSatisfact.png"
         },
         {
             "ports": [
@@ -229,8 +199,12 @@
         },
         {
             "name": "plot3.png"
+        },
+        {
+            "desc": "",
+            "name": "EatingandDrinking.R"
         }
     ],
-    "updated_at": "2018-11-01 14:11:38",
+    "updated_at": "2018-11-01 15:19:08",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
