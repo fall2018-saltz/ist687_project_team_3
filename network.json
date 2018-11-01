@@ -117,6 +117,16 @@
             ],
             "source": "clean_data.csv",
             "target": "ExplorationV.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean_data.csv",
+            "target": "ExplorationCK.R"
         }
     ],
     "nodes": [
@@ -221,6 +231,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-01 15:29:38",
+    "updated_at": "2018-11-01 15:30:06",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
