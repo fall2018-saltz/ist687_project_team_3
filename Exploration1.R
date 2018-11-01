@@ -27,7 +27,7 @@ df2<-df %>%
 
 #summary(df$Age)
 plot2<-ggplot(df,aes(x=Age,fill=Satisfaction))+
-        geom_bar()
+        geom_bar(position='fill')
 df3 <- df[df$Age<21,]
 mean1<- mean(df3$Age)
 df4 <- df[between(df$Age,21,40),]
@@ -48,7 +48,7 @@ df6<-df %>%
 #plotting Satisfaction based on Gender
 plot3 <- ggplot(df,aes(x=Gender,fill = Satisfaction))+
             geom_bar(position="fill")
-
+# men easily give higher Satisfaction comapred to female
 ###############################################
 #Exploring based on Price Senisitivity
 ###############################################   
@@ -57,7 +57,7 @@ plot4<- ggplot(df,aes(as.numeric(as.character(Price.Sensitivity)),fill=Satisfact
   geom_bar(position= 'fill')+
   xlab('Price Sensitivity')+
   ylab('values'))            
-            
+# From the plot it can be seen that higher price Sensitivity worsen the Satisfaction of the customer        
 ###############################################
 #Exploring based on year of first flight
 ############################################### 
@@ -65,6 +65,5 @@ plot4<- ggplot(df,aes(as.numeric(as.character(Price.Sensitivity)),fill=Satisfact
 plot5<- ggplot(df,aes(Year.of.First.Flight,fill=Satisfaction))+
   geom_bar(position= 'fill')+
   ylab('values')
-  
-# From the plot it can be seen that there is not much difference based on 
+  # From the plot it can be seen that there is not much difference based on 
 #when was the first flight was taken
