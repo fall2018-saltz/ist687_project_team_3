@@ -56,4 +56,10 @@ plot4<- ggplot(df,aes(as.numeric(as.character(Price.Sensitivity)),fill=Satisfact
   geom_bar()+
   xlab('Price Sensitivity')            
             
-            
+###############################################
+#Exploring based on year of first flight
+###############################################            
+plot5<- ggplot(df,aes(Year.of.First.Flight,fill=Satisfaction))+
+  geom_bar(position= 'fill')+
+#  xlab('Price Sensitivity')+
+  ylab('values')
