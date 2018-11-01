@@ -22,8 +22,8 @@ df2<-df %>%
 #Exploring Age column
 #summary(df$Age)
 
-#plot2<-ggplot(df,aes(x=Age[which(Satisfaction==1)],y=Satisfaction[which(Satisfaction==1)]))+
- #       geom_jitter()
+plot2<-ggplot(df,aes(x=Age,fill=Satisfaction))+
+        geom_bar()
 df3 <- df[df$Age<21,]
 mean1<- mean(df3$Age)
 df4 <- df[between(df$Age,21,40),]
@@ -33,9 +33,9 @@ mean5<- mean(df5$Age)
 #the middle age group is likely to give higher rating compared to others
 
 # Exploring Gender 
-df %>%
+df6<-df %>%
     group_by(Gender)%>%
-    summarise(mean= mean(Satisfaction))
+    summarise(probability= sum(Satisfaction==5)/n())
 #males are more likely to give higher ratings 
 
 plot3 <- ggplot(df,aes(x=Gender,fill = Satisfaction))+
