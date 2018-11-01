@@ -1,4 +1,5 @@
 
+library(ggmap)
 df <- raw_data
 
 source_fl <- unique(df$Orgin.City)
