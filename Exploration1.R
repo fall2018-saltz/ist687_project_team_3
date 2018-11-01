@@ -51,7 +51,8 @@ plot3 <- ggplot(df,aes(x=Gender,fill = Satisfaction))+
 
 ###############################################
 #Exploring based on Price Senisitivity
-###############################################    
+###############################################   
+
 plot4<- ggplot(df,aes(as.numeric(as.character(Price.Sensitivity)),fill=Satisfaction))+
   geom_bar(position= 'fill')+
   xlab('Price Sensitivity')+
