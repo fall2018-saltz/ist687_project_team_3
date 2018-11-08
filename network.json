@@ -263,10 +263,12 @@
             "task_status": "not started"
         },
         {
+            "assigned_to": "chnegiz",
             "desc": "",
-            "name": "piechart.R"
+            "name": "piechart.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-11-08 16:22:36",
+    "updated_at": "2018-11-08 16:22:47",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
