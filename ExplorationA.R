@@ -12,3 +12,4 @@ df1<- df %>%
 #plotting Satisfaction based on airlineStatus
 plot1 <- ggplot(df,aes(Airline.Status,fill=Satisfaction))+ geom_bar(position='fill')
 #NOTE - in R studio the graph is coloured properly based on Satisfaction
+plot1
