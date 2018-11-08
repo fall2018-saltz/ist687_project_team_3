@@ -261,8 +261,12 @@
             "desc": "",
             "name": "piechart.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "modelling the data using ",
+            "name": "model1.R"
         }
     ],
-    "updated_at": "2018-11-08 16:52:25",
+    "updated_at": "2018-11-08 16:58:28",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
