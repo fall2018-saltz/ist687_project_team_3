@@ -11,6 +11,7 @@ df1<- df %>%
                   ,max= max(as.numeric(Satisfaction)),min= min(as.numeric(Satisfaction)))
 #plotting Satisfaction based on airlineStatus
 df$Satisfaction <- as.factor(df$Satisfaction)
+str(df$Satisfaction)
 
 plot1 <- ggplot(df,aes(Airline.Status,fill=Satisfaction1))+
   geom_bar(position="fill")
