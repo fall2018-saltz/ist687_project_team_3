@@ -11,16 +11,6 @@
         {
             "ports": [
                 {
-                    "input": "raw_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "satisfactionSurvey.csv",
-            "target": "cleaning_1.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "mathematical_exploration",
                     "type": "csv"
                 }
@@ -195,12 +185,6 @@
             "name": "final_visualization.png"
         },
         {
-            "assigned_to": "chnegiz",
-            "desc": "clean data, handle missing data/empty cells/NULL values, normalize data (i.e. mean normalization & standardization)",
-            "name": "cleaning_1.R",
-            "task_status": "in progress"
-        },
-        {
             "assigned_to": "amgadge",
             "desc": "Encoding categorical variables,\r\nseprating date into months and inserting new coloumn as month,\r\nremoving erroneuous rows/ outliers",
             "name": "cleaning_2.R",
@@ -276,9 +260,9 @@
             "assigned_to": "chnegiz",
             "desc": "",
             "name": "piechart.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-08 16:23:28",
+    "updated_at": "2018-11-08 16:52:25",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
