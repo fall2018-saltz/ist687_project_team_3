@@ -47,7 +47,7 @@ df6<-df %>%
 
 #plotting Satisfaction based on Gender
 plot3 <- ggplot(df,aes(x=Gender,fill = Satisfaction))+
-            geom_bar(position="fill")
+            geom_bar(position='fill')
 # men easily give higher Satisfaction comapred to female
 ###############################################
 #Exploring based on Price Senisitivity
