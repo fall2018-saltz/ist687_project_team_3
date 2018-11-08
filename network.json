@@ -11,16 +11,6 @@
         {
             "ports": [
                 {
-                    "input": "raw_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "satisfactionSurvey.csv",
-            "target": "cleaning_1.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "mathematical_exploration",
                     "type": "csv"
                 }
@@ -76,7 +66,7 @@
                 }
             ],
             "source": "clean_data.csv",
-            "target": "Exploration1.R"
+            "target": "ExplorationA.R"
         },
         {
             "ports": [
@@ -85,7 +75,7 @@
                     "type": "png"
                 }
             ],
-            "source": "Exploration1.R",
+            "source": "ExplorationA.R",
             "target": "visualization_graphs_1.png"
         },
         {
@@ -105,7 +95,7 @@
                     "type": "png"
                 }
             ],
-            "source": "Exploration1.R",
+            "source": "ExplorationA.R",
             "target": "GenderSatisfactions.png"
         },
         {
@@ -135,7 +125,7 @@
                     "type": "png"
                 }
             ],
-            "source": "Exploration1.R",
+            "source": "ExplorationA.R",
             "target": "AgeSatisfaction.png"
         },
         {
@@ -145,7 +135,7 @@
                     "type": "png"
                 }
             ],
-            "source": "Exploration1.R",
+            "source": "ExplorationA.R",
             "target": "PriceSensitivitySatisfaction.png"
         },
         {
@@ -155,8 +145,18 @@
                     "type": "png"
                 }
             ],
-            "source": "Exploration1.R",
+            "source": "ExplorationA.R",
             "target": "YearOfFirstFlightSatisfaction.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data.csv",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean_data.csv",
+            "target": "piechart.R"
         }
     ],
     "nodes": [
@@ -176,49 +176,13 @@
             "name": "YearOfFirstFlightSatisfaction.png"
         },
         {
-            "assigned_to": "ywang",
-            "desc": "-descriptive statistics\r\n-correlation tables",
-            "name": "mathematical_data_exploration.R",
-            "task_status": "proposed"
-        },
-        {
             "assigned_to": "cjkarasi",
             "desc": "-Kernel SVM\r\n-XG Boost\r\n-clustering (k-means)",
             "name": "classification_models.R",
             "task_status": "proposed"
         },
         {
-            "assigned_to": "amgadge",
-            "desc": "-visualize final results of data analysis",
-            "name": "final_visualization.R",
-            "task_status": "proposed"
-        },
-        {
             "name": "final_visualization.png"
-        },
-        {
-            "assigned_to": "vijetmuley",
-            "desc": "-multiple regression model (step-wise)\r\n-polynomial regressions\r\n-random forest\r\n-Logistics regressions",
-            "name": "regression_models.R",
-            "task_status": "proposed"
-        },
-        {
-            "assigned_to": "chnegiz",
-            "desc": "clean data, handle missing data/empty cells/NULL values, normalize data (i.e. mean normalization & standardization)",
-            "name": "cleaning_1.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "chnegiz",
-            "desc": "",
-            "name": "piecharts.R",
-            "task_status": "proposed"
-        },
-        {
-            "assigned_to": "cjkarasi",
-            "desc": "",
-            "name": "bargraph.R",
-            "task_status": "proposed"
         },
         {
             "assigned_to": "amgadge",
@@ -230,23 +194,7 @@
             "name": "ageVsSatisfact.png"
         },
         {
-            "assigned_to": "amgadge",
-            "desc": "Exploration and visualizing Airline Status, Age, Gender",
-            "name": "Exploration1.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "GenderSatisfactions.png"
-        },
-        {
-            "desc": "Eating and drinking visualizations",
-            "name": "EatingAndDrinking.R"
-        },
-        {
-            "assigned_to": "vijetmuley",
-            "desc": "Exploration and visualizing No of flights p.a, %flights with other, No of other loyalty cards, Shopping amount",
-            "name": "ExplorationV.R",
-            "task_status": "proposed"
         },
         {
             "assigned_to": "ywang",
@@ -265,8 +213,60 @@
         },
         {
             "name": "PriceSensitivitySatisfaction.png"
+        },
+        {
+            "assigned_to": "amgadge",
+            "desc": "Exploration and visualizing Airline Status, Age, Gender, Price sensitivity and years of flight",
+            "name": "ExplorationA.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "ywang",
+            "desc": "-descriptive statistics\r\n-correlation tables",
+            "name": "mathematical_data_exploration.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "amgadge",
+            "desc": "-visualize final results of data analysis",
+            "name": "final_visualization.R",
+            "task_status": "not started"
+        },
+        {
+            "assigned_to": "vijetmuley",
+            "desc": "-multiple regression model (step-wise)\r\n-polynomial regressions\r\n-random forest\r\n-Logistics regressions",
+            "name": "regression_models.R",
+            "task_status": "not started"
+        },
+        {
+            "assigned_to": "vijetmuley",
+            "desc": "Exploration and visualizing No of flights p.a, %flights with other, No of other loyalty cards, Shopping amount",
+            "name": "ExplorationV.R",
+            "task_status": "not started"
+        },
+        {
+            "assigned_to": "cjkarasi",
+            "desc": "",
+            "name": "bargraph.R",
+            "task_status": "not started"
+        },
+        {
+            "assigned_to": "not assigned",
+            "desc": "Eating and drinking visualizations",
+            "name": "EatingAndDrinking.R",
+            "task_status": "not started"
+        },
+        {
+            "assigned_to": "chnegiz",
+            "desc": "",
+            "name": "piechart.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "modelling the data using ",
+            "name": "model1.R"
         }
     ],
-    "updated_at": "2018-11-01 16:18:00",
+    "updated_at": "2018-11-08 16:58:28",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
