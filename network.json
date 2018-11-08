@@ -157,16 +157,6 @@
             ],
             "source": "ExplorationA.R",
             "target": "YearOfFirstFlightSatisfaction.png"
-        },
-        {
-            "ports": [
-                {
-                    "input": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean_data.csv",
-            "target": "piecharts.R"
         }
     ],
     "nodes": [
@@ -267,18 +257,12 @@
             "task_status": "not started"
         },
         {
-            "assigned_to": "chnegiz",
-            "desc": "",
-            "name": "piecharts.R",
-            "task_status": "not started"
-        },
-        {
             "assigned_to": "not assigned",
             "desc": "Eating and drinking visualizations",
             "name": "EatingAndDrinking.R",
             "task_status": "not started"
         }
     ],
-    "updated_at": "2018-11-08 16:22:05",
+    "updated_at": "2018-11-08 16:22:16",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
