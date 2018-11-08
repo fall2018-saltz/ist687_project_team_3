@@ -157,6 +157,16 @@
             ],
             "source": "ExplorationA.R",
             "target": "YearOfFirstFlightSatisfaction.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data.csv",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean_data.csv",
+            "target": "piechart.R"
         }
     ],
     "nodes": [
@@ -269,6 +279,6 @@
             "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-11-08 16:22:47",
+    "updated_at": "2018-11-08 16:23:28",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
