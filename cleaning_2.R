@@ -22,7 +22,7 @@ df$Arrival.Delay.greater.5.Mins = as.factor(df$Arrival.Delay.greater.5.Mins,
 
 #removing erroneuous rows/ outliers(df$Satisfaction)
 keep <- c("1","2","3","4","5")
-df <- df[df$Satisfaction %in% keep,]
+df <- as.factor(df[df$Satisfaction %in% keep,])
 
 #seprating date into months and inserting new coloumn as month
 temp<-as.Date(df$Flight.date,"%m/%d/%y")
