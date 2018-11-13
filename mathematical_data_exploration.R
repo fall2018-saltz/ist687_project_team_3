@@ -19,7 +19,7 @@ library(RColorBrewer)
 coul = brewer.pal(5, "Pastel2") 
 
 data_percentage <- apply(newdf, 2, function(x){x*100/sum(x,na.rm=T)})
-barplot(data_percentage, col=coul , border="white", xlab="group")
+barplot1 <- barplot(data_percentage, col=coul , border="white", xlab="group")
 mtext(text = "Percentage", side = 2, line = 3, cex = 1.2, adj = 0.5)
 legend.text=c("1","2","3", "4", "5")
 legend(x = "right", legend.text
