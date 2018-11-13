@@ -157,6 +157,16 @@
             ],
             "source": "clean_data.csv",
             "target": "piechart.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barplot1",
+                    "type": "png"
+                }
+            ],
+            "source": "mathematical_data_exploration.R",
+            "target": "TypeofTravel.png"
         }
     ],
     "nodes": [
@@ -270,6 +280,6 @@
             "name": "TypeofTravel.png"
         }
     ],
-    "updated_at": "2018-11-13 16:38:59",
+    "updated_at": "2018-11-13 16:43:22",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
