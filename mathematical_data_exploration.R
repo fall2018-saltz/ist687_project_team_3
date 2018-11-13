@@ -6,7 +6,7 @@
 # but the comments are all original.
 # IST 687. Due is ??, 2018
 # Percentage of satisfaction values for different travel types
-library(plotrix)
+
 library(wordcloud)
 
 BusinessTravel <- tapply(df$Type.of.Travel=="0", df$Satisfaction, sum)
