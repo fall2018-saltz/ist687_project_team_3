@@ -157,6 +157,16 @@
             ],
             "source": "clean_data.csv",
             "target": "piechart.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barplot1",
+                    "type": "png"
+                }
+            ],
+            "source": "mathematical_data_exploration.R",
+            "target": "TypeofTravel.png"
         }
     ],
     "nodes": [
@@ -265,8 +275,11 @@
             "desc": "Exploration and visualizing Airline Status, Age, Gender, Price sensitivity and years of flight",
             "name": "ExplorationA.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "TypeofTravel.png"
         }
     ],
-    "updated_at": "2018-11-08 21:27:21",
+    "updated_at": "2018-11-13 16:43:22",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
