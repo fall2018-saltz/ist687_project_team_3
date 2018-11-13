@@ -7,7 +7,6 @@
 # IST 687. Due is ??, 2018
 # Percentage of satisfaction values for different travel types
 
-library(wordcloud)
 
 BusinessTravel <- tapply(df$Type.of.Travel=="0", df$Satisfaction, sum)
 PersonalTravel <- tapply(df$Type.of.Travel=="1", df$Satisfaction, sum)
