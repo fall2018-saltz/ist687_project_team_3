@@ -265,8 +265,11 @@
             "desc": "Exploration and visualizing Airline Status, Age, Gender, Price sensitivity and years of flight",
             "name": "ExplorationA.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "TypeofTravel.png"
         }
     ],
-    "updated_at": "2018-11-08 21:27:21",
+    "updated_at": "2018-11-13 16:38:59",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
