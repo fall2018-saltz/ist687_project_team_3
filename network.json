@@ -187,6 +187,16 @@
             ],
             "source": "piechart.R",
             "target": "airline_status_piechart.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "TT_PC",
+                    "type": "png"
+                }
+            ],
+            "source": "piechart.R",
+            "target": "traveltype_piechart.png"
         }
     ],
     "nodes": [
@@ -315,6 +325,6 @@
             "name": "arrival_delay_piechart.png"
         }
     ],
-    "updated_at": "2018-11-14 16:35:59",
+    "updated_at": "2018-11-14 16:36:14",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
