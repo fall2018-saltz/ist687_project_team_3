@@ -27,6 +27,7 @@ legend(x = "right", legend.text
        ,bty="n", inset=c(-0.08,0), xpd = TRUE)
 
 # 2. Shopping.Amount.at.Airport, colored scatterplot
+library(plotly)
 scatterplot1 <- plot_ly(df, x = ~Shopping.Amount.at.Airport, y = ~Satisfaction, type="scatter", text = paste("Shopping.Amount: ", df$Shopping.Amount.at.Airport),
           mode = "markers", color = ~Shopping.Amount.at.Airport, size = ~Shopping.Amount.at.Airport)
 scatterplot1
