@@ -287,8 +287,11 @@
         },
         {
             "name": "traveltype_piechart.png"
+        },
+        {
+            "name": "class_type_piechart.png"
         }
     ],
-    "updated_at": "2018-11-14 16:34:25",
+    "updated_at": "2018-11-14 16:34:50",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
