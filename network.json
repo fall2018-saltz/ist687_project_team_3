@@ -167,6 +167,16 @@
             ],
             "source": "mathematical_data_exploration.R",
             "target": "TypeofTravel.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "gender_PC",
+                    "type": "png"
+                }
+            ],
+            "source": "piechart.R",
+            "target": "gender_piechart.png"
         }
     ],
     "nodes": [
@@ -295,6 +305,6 @@
             "name": "arrival_delay_piechart.png"
         }
     ],
-    "updated_at": "2018-11-14 16:35:03",
+    "updated_at": "2018-11-14 16:35:46",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
