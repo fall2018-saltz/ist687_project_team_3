@@ -167,6 +167,56 @@
             ],
             "source": "mathematical_data_exploration.R",
             "target": "TypeofTravel.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "gender_PC",
+                    "type": "png"
+                }
+            ],
+            "source": "piechart.R",
+            "target": "gender_piechart.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "AS_PC",
+                    "type": "png"
+                }
+            ],
+            "source": "piechart.R",
+            "target": "airline_status_piechart.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "TT_PC",
+                    "type": "png"
+                }
+            ],
+            "source": "piechart.R",
+            "target": "traveltype_piechart.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "CT_PC",
+                    "type": "png"
+                }
+            ],
+            "source": "piechart.R",
+            "target": "class_type_piechart.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "AD_PC",
+                    "type": "png"
+                }
+            ],
+            "source": "piechart.R",
+            "target": "arrival_delay_piechart.png"
         }
     ],
     "nodes": [
@@ -278,8 +328,23 @@
         },
         {
             "name": "TypeofTravel.png"
+        },
+        {
+            "name": "gender_piechart.png"
+        },
+        {
+            "name": "airline_status_piechart.png"
+        },
+        {
+            "name": "traveltype_piechart.png"
+        },
+        {
+            "name": "class_type_piechart.png"
+        },
+        {
+            "name": "arrival_delay_piechart.png"
         }
     ],
-    "updated_at": "2018-11-13 16:43:22",
+    "updated_at": "2018-11-14 16:36:37",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
