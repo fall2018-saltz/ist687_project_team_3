@@ -217,6 +217,11 @@
             ],
             "source": "piechart.R",
             "target": "arrival_delay_piechart.png"
+        },
+        {
+            "ports": [],
+            "source": "mathematical_data_exploration.R",
+            "target": "plot5364.png"
         }
     ],
     "nodes": [
@@ -348,6 +353,6 @@
             "name": "plot5364.png"
         }
     ],
-    "updated_at": "2018-11-14 18:49:39",
+    "updated_at": "2018-11-14 18:49:48",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
