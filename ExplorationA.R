@@ -4,7 +4,7 @@ library(ggplot2)
 ###############################################
 #Exploring based on flight Status
 ###############################################
-df$Satisfaction <- as.factor(df$Satisfaction)
+df$Satisfaction <- as.factor(as.character(df$Satisfaction))
 df1<- df %>% 
         #filter(Flight.cancelled=='0') %>%
         group_by(Airline.Status) %>%
