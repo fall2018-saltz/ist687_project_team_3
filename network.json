@@ -166,7 +166,7 @@
                 }
             ],
             "source": "mathematical_data_exploration.R",
-            "target": "TypeofTravel.png"
+            "target": "TypeofTravel_stackedbarchart.png"
         },
         {
             "ports": [
@@ -217,6 +217,31 @@
             ],
             "source": "piechart.R",
             "target": "arrival_delay_piechart.png"
+        },
+        {
+            "ports": [],
+            "source": "mathematical_data_exploration.R",
+            "target": "plot5364.png"
+        },
+        {
+            "ports": [],
+            "source": "mathematical_data_exploration.R",
+            "target": "plot3400.png"
+        },
+        {
+            "ports": [],
+            "source": "mathematical_data_exploration.R",
+            "target": "plot4068.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scatterplot1",
+                    "type": "png"
+                }
+            ],
+            "source": "mathematical_data_exploration.R",
+            "target": "scatterplot1.png"
         }
     ],
     "nodes": [
@@ -327,7 +352,7 @@
             "task_status": "in progress"
         },
         {
-            "name": "TypeofTravel.png"
+            "name": "TypeofTravel_stackedbarchart.png"
         },
         {
             "name": "gender_piechart.png"
@@ -343,8 +368,20 @@
         },
         {
             "name": "arrival_delay_piechart.png"
+        },
+        {
+            "name": "plot5364.png"
+        },
+        {
+            "name": "plot3400.png"
+        },
+        {
+            "name": "plot4068.png"
+        },
+        {
+            "name": "scatterplot1.png"
         }
     ],
-    "updated_at": "2018-11-14 16:36:37",
+    "updated_at": "2018-11-14 20:49:04",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
