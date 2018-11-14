@@ -1,5 +1,12 @@
 
 library(ggplot2)
+
+##creating a df for gender
+female_count <- cat(nrow(Proj_Data[Proj_Data$Gender == "Female", ]))
+male_count <- cat(nrow(Proj_Data[Proj_Data$Gender == "Male", ]))
+gender_data <- c(73374,56515)
+gender_labels <- c('Female', 'Male')
+gender_df <- data.frame(gender_labels,gender_data)
 ##ggplot2 pie chart
 bar<-ggplot(gender_df,aes(x="",y=gender_df$gender_data,fill=gender_labels))+geom_bar(width=1,stat="identity")
 bar
