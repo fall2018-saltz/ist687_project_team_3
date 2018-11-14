@@ -231,11 +231,6 @@
         {
             "ports": [],
             "source": "mathematical_data_exploration.R",
-            "target": "scatterplot1.png"
-        },
-        {
-            "ports": [],
-            "source": "mathematical_data_exploration.R",
             "target": "plot4068.png"
         }
     ],
@@ -371,12 +366,9 @@
             "name": "plot3400.png"
         },
         {
-            "name": "scatterplot1.png"
-        },
-        {
             "name": "plot4068.png"
         }
     ],
-    "updated_at": "2018-11-14 20:48:29",
+    "updated_at": "2018-11-14 20:48:42",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
