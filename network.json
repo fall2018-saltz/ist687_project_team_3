@@ -278,8 +278,11 @@
         },
         {
             "name": "TypeofTravel.png"
+        },
+        {
+            "name": "gender_piechart.png"
         }
     ],
-    "updated_at": "2018-11-13 23:33:05",
+    "updated_at": "2018-11-14 16:33:53",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
