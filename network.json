@@ -166,7 +166,7 @@
                 }
             ],
             "source": "mathematical_data_exploration.R",
-            "target": "TypeofTravel.png"
+            "target": "TypeofTravel_stackedbarchart.png"
         },
         {
             "ports": [
@@ -327,7 +327,7 @@
             "task_status": "in progress"
         },
         {
-            "name": "TypeofTravel.png"
+            "name": "TypeofTravel_stackedbarchart.png"
         },
         {
             "name": "gender_piechart.png"
@@ -345,6 +345,6 @@
             "name": "arrival_delay_piechart.png"
         }
     ],
-    "updated_at": "2018-11-14 16:36:37",
+    "updated_at": "2018-11-14 18:49:27",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
