@@ -222,6 +222,11 @@
             "ports": [],
             "source": "mathematical_data_exploration.R",
             "target": "plot5364.png"
+        },
+        {
+            "ports": [],
+            "source": "mathematical_data_exploration.R",
+            "target": "plot3400.png"
         }
     ],
     "nodes": [
@@ -356,6 +361,6 @@
             "name": "plot3400.png"
         }
     ],
-    "updated_at": "2018-11-14 18:49:53",
+    "updated_at": "2018-11-14 18:50:00",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
