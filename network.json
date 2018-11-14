@@ -281,8 +281,11 @@
         },
         {
             "name": "gender_piechart.png"
+        },
+        {
+            "name": "airline_status_piechart.png"
         }
     ],
-    "updated_at": "2018-11-14 16:33:53",
+    "updated_at": "2018-11-14 16:34:10",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
