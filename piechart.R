@@ -1,5 +1,6 @@
 
 library(ggplot2)
+##creating Proj_Data
 
 ##creating a df for gender
 female_count <- cat(nrow(Proj_Data[Proj_Data$Gender == "Female", ]))
