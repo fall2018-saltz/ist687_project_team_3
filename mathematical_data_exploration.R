@@ -36,6 +36,6 @@ scatterplot1 <- plot_ly(df, x = ~Shopping.Amount.at.Airport, y = ~Satisfaction, 
 scatterplot1
 
 # 3.No.of.Flights.p.a.&Satisfaction
-plot(df$No.of.Flights.p.a., df$Satisfaction
+plot1 <- plot(df$No.of.Flights.p.a., df$Satisfaction
      , main = "Passenger's number of flights and satisfaction"
      , col = "tomato1")
