@@ -312,6 +312,16 @@
             ],
             "source": "mathematical_data_exploration.R",
             "target": "Number_of_other_Airlines.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "ggplot3",
+                    "type": "png"
+                }
+            ],
+            "source": "mathematical_data_exploration.R",
+            "target": "No_of_other_Loyalty_Cards.png"
         }
     ],
     "nodes": [
@@ -473,6 +483,6 @@
             "name": "No_of_other_Loyalty_Cards.png"
         }
     ],
-    "updated_at": "2018-11-15 03:29:07",
+    "updated_at": "2018-11-15 03:29:19",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
