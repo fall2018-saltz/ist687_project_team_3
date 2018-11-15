@@ -219,11 +219,6 @@
             "target": "arrival_delay_piechart.png"
         },
         {
-            "ports": [],
-            "source": "mathematical_data_exploration.R",
-            "target": "plot3400.png"
-        },
-        {
             "ports": [
                 {
                     "output": "eatingScatterPlot",
@@ -439,9 +434,6 @@
             "name": "arrival_delay_piechart.png"
         },
         {
-            "name": "plot3400.png"
-        },
-        {
             "name": "ShoppingAmount_scatterplot1.png"
         },
         {
@@ -478,6 +470,6 @@
             "name": "Number_of_other_Airlines.png"
         }
     ],
-    "updated_at": "2018-11-15 03:26:09",
+    "updated_at": "2018-11-15 03:28:23",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
