@@ -69,3 +69,42 @@ AS_PC <- ggplot(transform(transform(AS_df, AS_data=AS_data/sum(AS_data)), labPos
   labs(title = "Airline Status w/ Percentages") + 
   geom_text(aes(y=labPos, label=scales::percent(AS_data)))
 AS_PC
+
+##NEW TASK
+##new pie chart for type of travel (Business Travel, Mileage tickets, Personal Travel)
+BT_count <- cat(nrow(Proj_Data[Proj_Data$Type.of.Travel == "0", ]))
+PT_count <- cat(nrow(Proj_Data[Proj_Data$Type.of.Travel == "1", ]))
+MT_count <- cat(nrow(Proj_Data[Proj_Data$Type.of.Travel == "2", ]))
+
+
+travel_labels <- c("Business travel", "Personal Travel", "Mileage Travel")
+travel_data <- c(79623, 40187, 10070)
+TT_df <- data.frame(travel_labels, travel_data)
+
+
+##creation of simple pie chart
+pie(travel_data, labels = travel_labels, main =  "Travel Type")
+
+##adjust simple pie chart to contain percentages
+pct<-round(travel_data/sum(travel_data)*100)
+label<-paste(travel_labels,pct)
+label<-paste(label,"%",sep="")
+pie(travel_data,labels = label,col= rainbow(length(label)),main="Travel Type with Percentages")
+
+
+##ggplot2 pie chart
+bar<-ggplot(TT_df,aes(x="",y=TT_df$travel_data,fill=travel_labels))+geom_bar(width=1,stat="identity")
+bar
+
+pie<-bar+coord_polar("y",start=0)+scale_fill_brewer(palette = "Dark2")+theme_minimal()
+pie
+
+##final ggplot2 code for gender
+TT_PC <- ggplot(transform(transform(TT_df, travel_data=travel_data/sum(travel_data)), labPos=cumsum(travel_data)-travel_data/3), 
+                aes(x="", y = travel_data, fill = travel_labels)) +
+  geom_bar(width = 1, stat = "identity") +
+  scale_fill_manual(values = c("red", "yellow","blue", "green", "cyan")) +
+  coord_polar(theta = "y") +
+  labs(title = "Travel Type w/ Percentages") + 
+  geom_text(aes(y=labPos, label=scales::percent(travel_data)))
+TT_PC
