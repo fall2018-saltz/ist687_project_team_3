@@ -69,3 +69,5 @@ plot5<- ggplot(df,aes(Year.of.First.Flight,fill=Satisfaction))+
 #when was the first flight was taken
 
 str(df)
+
+df
