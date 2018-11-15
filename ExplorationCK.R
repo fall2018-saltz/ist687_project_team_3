@@ -1,4 +1,5 @@
 
+library(dplyr)
 myData <- read.csv("clean_data.csv")
 
 #Histogram for eating and drinking variable
