@@ -494,8 +494,11 @@
         },
         {
             "name": "map1.png"
+        },
+        {
+            "name": "map2.png"
         }
     ],
-    "updated_at": "2018-11-15 04:55:57",
+    "updated_at": "2018-11-15 04:56:04",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
