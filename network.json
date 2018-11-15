@@ -106,7 +106,7 @@
                 }
             ],
             "source": "clean_data.csv",
-            "target": "ExplorationV.R"
+            "target": "maps_v.R"
         },
         {
             "ports": [
@@ -219,21 +219,6 @@
             "target": "arrival_delay_piechart.png"
         },
         {
-            "ports": [],
-            "source": "mathematical_data_exploration.R",
-            "target": "plot5364.png"
-        },
-        {
-            "ports": [],
-            "source": "mathematical_data_exploration.R",
-            "target": "plot3400.png"
-        },
-        {
-            "ports": [],
-            "source": "mathematical_data_exploration.R",
-            "target": "plot4068.png"
-        },
-        {
             "ports": [
                 {
                     "output": "eatingScatterPlot",
@@ -307,6 +292,86 @@
             "ports": [],
             "source": "mathematical_data_exploration.R",
             "target": "ShoppingAmount_scatterplot1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "ggplot1",
+                    "type": "png"
+                }
+            ],
+            "source": "mathematical_data_exploration.R",
+            "target": "passenger_number_of_flights.png.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "ggplot2",
+                    "type": "png"
+                }
+            ],
+            "source": "mathematical_data_exploration.R",
+            "target": "Number_of_other_Airlines.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "ggplot3",
+                    "type": "png"
+                }
+            ],
+            "source": "mathematical_data_exploration.R",
+            "target": "No_of_other_Loyalty_Cards.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "link",
+                    "type": "png"
+                }
+            ],
+            "source": "maps_v.R",
+            "target": "map1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map1",
+                    "type": "png"
+                }
+            ],
+            "source": "maps_v.R",
+            "target": "map2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map33",
+                    "type": "png"
+                }
+            ],
+            "source": "maps_v.R",
+            "target": "map3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map44",
+                    "type": "png"
+                }
+            ],
+            "source": "maps_v.R",
+            "target": "map4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map55",
+                    "type": "png"
+                }
+            ],
+            "source": "maps_v.R",
+            "target": "map5.png"
         }
     ],
     "nodes": [
@@ -377,12 +442,6 @@
             "task_status": "not started"
         },
         {
-            "assigned_to": "vijetmuley",
-            "desc": "Exploration and visualizing No of flights p.a, %flights with other, No of other loyalty cards, Shopping amount",
-            "name": "ExplorationV.R",
-            "task_status": "in progress"
-        },
-        {
             "assigned_to": "cjkarasi",
             "desc": "",
             "name": "bargraph.R",
@@ -429,15 +488,6 @@
             "name": "arrival_delay_piechart.png"
         },
         {
-            "name": "plot5364.png"
-        },
-        {
-            "name": "plot3400.png"
-        },
-        {
-            "name": "plot4068.png"
-        },
-        {
             "name": "ShoppingAmount_scatterplot1.png"
         },
         {
@@ -466,8 +516,38 @@
         },
         {
             "name": "histEatingAndDrinking.png"
+        },
+        {
+            "name": "passenger_number_of_flights.png.png"
+        },
+        {
+            "name": "Number_of_other_Airlines.png"
+        },
+        {
+            "name": "No_of_other_Loyalty_Cards.png"
+        },
+        {
+            "name": "map1.png"
+        },
+        {
+            "name": "map2.png"
+        },
+        {
+            "name": "map3.png"
+        },
+        {
+            "name": "map4.png"
+        },
+        {
+            "name": "map5.png"
+        },
+        {
+            "assigned_to": "vijetmuley",
+            "desc": "Exploration and visualizing No of flights p.a, %flights with other, No of other loyalty cards, Shopping amount",
+            "name": "maps_v.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-15 02:57:04",
+    "updated_at": "2018-11-15 04:58:35",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }

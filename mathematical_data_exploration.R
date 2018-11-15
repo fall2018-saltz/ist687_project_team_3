@@ -34,3 +34,13 @@ library(plotly)
 scatterplot1 <- plot_ly(df, x = ~Shopping.Amount.at.Airport, y = ~Satisfaction, type="scatter", text = paste("Shopping.Amount: ", df$Shopping.Amount.at.Airport),
           mode = "markers", color = ~Shopping.Amount.at.Airport, size = ~Shopping.Amount.at.Airport)
 scatterplot1
+
+# 3.No.of.Flights.p.a.&Satisfaction
+ggplot1 <- ggplot(df, aes(x = No.of.Flights.p.a., y =Satisfaction, col =No.of.Flights.p.a.)) + geom_point()
+
+# 4. X..of.Flight.with.other.Airlines
+df$Number.of.other.Airlines <- df$X..of.Flight.with.other.Airlines 
+ggplot2 <- ggplot(df, aes(x = Number.of.other.Airlines, y =Satisfaction, col =Number.of.other.Airlines)) + geom_point()
+
+# 5. No..of.other.Loyalty.Cards
+ggplot3 <- ggplot(df, aes(x = No..of.other.Loyalty.Cards, y =Satisfaction, col =No..of.other.Loyalty.Cards)) + geom_point()
