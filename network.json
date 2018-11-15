@@ -386,15 +386,15 @@
             "name": "ShoppingAmount_scatterplot1.png"
         },
         {
+            "name": "eatingAndDrinkingScater.png"
+        },
+        {
             "assigned_to": "cjkarasi",
             "desc": "Scheduled departure hour, departure delay in minutes, eating and drinking at the airport, class, day of month ",
             "name": "ExplorationCK.R",
             "task_status": "in progress"
-        },
-        {
-            "name": "eatingAndDrinkingScater.png"
         }
     ],
-    "updated_at": "2018-11-15 02:26:54",
+    "updated_at": "2018-11-15 02:36:43",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
