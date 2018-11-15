@@ -531,10 +531,12 @@
             "name": "ShoppingAmount_scatterplot1.png.png"
         },
         {
+            "assigned_to": "vijetmuley",
             "desc": "",
-            "name": "map_1_new.R"
+            "name": "map_1_new.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-11-15 16:46:52",
+    "updated_at": "2018-11-15 16:47:03",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
