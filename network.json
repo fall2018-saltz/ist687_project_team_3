@@ -81,32 +81,12 @@
         {
             "ports": [
                 {
-                    "input": "raw_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean_data.csv",
-            "target": "mapsY.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "plot3",
                     "type": "png"
                 }
             ],
             "source": "ExplorationA.R",
             "target": "GenderSatisfactions.png"
-        },
-        {
-            "ports": [
-                {
-                    "input": "df",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean_data.csv",
-            "target": "maps_v.R"
         },
         {
             "ports": [
@@ -321,11 +301,31 @@
         {
             "ports": [
                 {
+                    "output": "ggplot0",
+                    "type": "png"
+                }
+            ],
+            "source": "mathematical_data_exploration.R",
+            "target": "ShoppingAmount_scatterplot1.png.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean_data.csv",
+            "target": "map_v.R"
+        },
+        {
+            "ports": [
+                {
                     "output": "link",
                     "type": "png"
                 }
             ],
-            "source": "maps_v.R",
+            "source": "map_v.R",
             "target": "map1.png"
         },
         {
@@ -335,17 +335,17 @@
                     "type": "png"
                 }
             ],
-            "source": "maps_v.R",
+            "source": "map_v.R",
             "target": "map2.png"
         },
         {
             "ports": [
                 {
-                    "output": "map33",
+                    "output": "map3",
                     "type": "png"
                 }
             ],
-            "source": "maps_v.R",
+            "source": "map_v.R",
             "target": "map3.png"
         },
         {
@@ -355,7 +355,7 @@
                     "type": "png"
                 }
             ],
-            "source": "maps_v.R",
+            "source": "map_v.R",
             "target": "map4.png"
         },
         {
@@ -365,18 +365,8 @@
                     "type": "png"
                 }
             ],
-            "source": "maps_v.R",
+            "source": "map_v.R",
             "target": "map5.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "ggplot0",
-                    "type": "png"
-                }
-            ],
-            "source": "mathematical_data_exploration.R",
-            "target": "ShoppingAmount_scatterplot1.png.png"
         }
     ],
     "nodes": [
@@ -415,12 +405,6 @@
         },
         {
             "name": "GenderSatisfactions.png"
-        },
-        {
-            "assigned_to": "ywang",
-            "desc": "Using maps for visualization ",
-            "name": "mapsY.R",
-            "task_status": "in progress"
         },
         {
             "name": "AgeSatisfaction.png"
@@ -544,15 +528,13 @@
             "name": "map5.png"
         },
         {
-            "assigned_to": "vijetmuley",
-            "desc": "Exploration and visualizing No of flights p.a, %flights with other, No of other loyalty cards, Shopping amount",
-            "name": "maps_v.R",
-            "task_status": "in progress"
+            "name": "ShoppingAmount_scatterplot1.png.png"
         },
         {
-            "name": "ShoppingAmount_scatterplot1.png.png"
+            "desc": "",
+            "name": "map_v.R"
         }
     ],
-    "updated_at": "2018-11-15 16:27:09",
+    "updated_at": "2018-11-15 16:43:20",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
