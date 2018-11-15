@@ -99,7 +99,7 @@ bar
 pie<-bar+coord_polar("y",start=0)+scale_fill_brewer(palette = "Dark2")+theme_minimal()
 pie
 
-##final ggplot2 code for gender
+##final ggplot2 code for travel type 
 TT_PC <- ggplot(transform(transform(TT_df, travel_data=travel_data/sum(travel_data)), labPos=cumsum(travel_data)-travel_data/3), 
                 aes(x="", y = travel_data, fill = travel_labels)) +
   geom_bar(width = 1, stat = "identity") +
@@ -137,7 +137,7 @@ bar
 pie<-bar+coord_polar("y",start=0)+scale_fill_brewer(palette = "Dark2")+theme_minimal()
 pie
 
-##final ggplot2 code for gender
+##final ggplot2 code for flier class
 CT_PC <- ggplot(transform(transform(class_df, class_data=class_data/sum(class_data)), labPos=cumsum(class_data)-class_data/3), 
                 aes(x="", y = class_data, fill = class_labels)) +
   geom_bar(width = 1, stat = "identity") +
@@ -175,7 +175,7 @@ bar
 pie<-bar+coord_polar("y",start=0)+scale_fill_brewer(palette = "Dark2")+theme_minimal()
 pie
 
-##final ggplot2 code for gender
+##final ggplot2 code for arrival delay
 AD_PC <- ggplot(transform(transform(delay_df, delay_data=delay_data/sum(delay_data)), labPos=cumsum(delay_data)-delay_data/3), 
                 aes(x="", y = delay_data, fill = delay_labels)) +
   geom_bar(width = 1, stat = "identity") +
