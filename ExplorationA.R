@@ -72,3 +72,4 @@ str(df)
 
 df %>%
     group_by(Class) %>%
+    summarise(count= n())
