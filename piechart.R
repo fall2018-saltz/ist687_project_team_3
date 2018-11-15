@@ -6,11 +6,12 @@ Proj_Data <- "clean_data.csv"
 Proj_Data <- data.frame(read.csv(Proj_Data))
 
 ##creating a df for gender
-female_count <- cat(nrow(Proj_Data[Proj_Data$Gender == "Female", ]))
-male_count <- cat(nrow(Proj_Data[Proj_Data$Gender == "Male", ]))
-gender_data <- c(73374,56515)
+female_count <- cat(nrow(Proj_Data[Proj_Data$Gender == "0", ]))
+male_count <- cat(nrow(Proj_Data[Proj_Data$Gender == "1", ]))
+gender_data <- c(73371,56509)
 gender_labels <- c('Female', 'Male')
 gender_df <- data.frame(gender_labels,gender_data)
+
 
 ##ggplot2 pie chart
 bar<-ggplot(gender_df,aes(x="",y=gender_df$gender_data,fill=gender_labels))+geom_bar(width=1,stat="identity")
@@ -29,18 +30,16 @@ gender_PC <- ggplot(transform(transform(gender_df, gender_data=gender_data/sum(g
   geom_text(aes(y=labPos, label=scales::percent(gender_data)))
   
   
-  
 ##NEW TASK
 ##creating ggplot2 piechart for airline status data (blue, gold, platinum, and silver)
-blue_count <- cat(nrow(Proj_Data[Proj_Data$Airline.Status == "Blue", ]))
-silver_count <- cat(nrow(Proj_Data[Proj_Data$Airline.Status == "Silver", ]))
-platinum_count <- cat(nrow(Proj_Data[Proj_Data$Airline.Status == "Platinum", ]))
-gold_count <- cat(nrow(Proj_Data[Proj_Data$Airline.Status == "Gold", ]))
+blue_count <- cat(nrow(Proj_Data[Proj_Data$Airline.Status == "0", ]))
+silver_count <- cat(nrow(Proj_Data[Proj_Data$Airline.Status == "1", ]))
+gold_count <- cat(nrow(Proj_Data[Proj_Data$Airline.Status == "2", ]))
+platinum_count <- cat(nrow(Proj_Data[Proj_Data$Airline.Status == "3", ]))
 
-AS_labels <- c("Blue", "Silver", "Platinum", "Gold")
-AS_data <- c(88910, 25970, 4172, 10837)
+AS_labels <- c("Blue", "Silver", "Gold", "Platinum")
+AS_data <- c(88904, 25968, 10836, 4172)
 AS_df <- data.frame(AS_labels, AS_data)
-View(AS_df)  
 
   
 ##creation of simple pie chart
@@ -53,6 +52,7 @@ label<-paste(label,"%",sep="")
 pie(AS_data,labels = label,col= rainbow(length(label)),main="Airline Status w/ Percentages")
 
 
+
 ##ggplot2 pie chart
 bar<-ggplot(AS_df,aes(x="",y=AS_df$AS_data,fill=AS_labels))+geom_bar(width=1,stat="identity")
 bar
@@ -60,7 +60,7 @@ bar
 pie<-bar+coord_polar("y",start=0)+scale_fill_brewer(palette = "Dark2")+theme_minimal()
 pie
 
-##final ggplot2 code for airline status
+##final ggplot2 code for gender
 AS_PC <- ggplot(transform(transform(AS_df, AS_data=AS_data/sum(AS_data)), labPos=cumsum(AS_data)-AS_data/4), 
                     aes(x="", y = AS_data, fill = AS_labels)) +
   geom_bar(width = 1, stat = "identity") +
@@ -70,20 +70,20 @@ AS_PC <- ggplot(transform(transform(AS_df, AS_data=AS_data/sum(AS_data)), labPos
   geom_text(aes(y=labPos, label=scales::percent(AS_data)))
 AS_PC
 
-
 ##NEW TASK
 ##new pie chart for type of travel (Business Travel, Mileage tickets, Personal Travel)
-BT_count <- cat(nrow(Proj_Data[Proj_Data$Type.of.Travel == "Business travel", ]))
-MT_count <- cat(nrow(Proj_Data[Proj_Data$Type.of.Travel == "Mileage tickets", ]))
-PT_count <- cat(nrow(Proj_Data[Proj_Data$Type.of.Travel == "Personal Travel", ]))
+BT_count <- cat(nrow(Proj_Data[Proj_Data$Type.of.Travel == "0", ]))
+PT_count <- cat(nrow(Proj_Data[Proj_Data$Type.of.Travel == "1", ]))
+MT_count <- cat(nrow(Proj_Data[Proj_Data$Type.of.Travel == "2", ]))
 
-travel_labels <- c("Business travel", "Mileage tickets", "Personal Travel")
-travel_data <- c(79630, 10070, 40189)
+
+travel_labels <- c("Business travel", "Personal Travel", "Mileage Travel")
+travel_data <- c(79623, 40187, 10070)
 TT_df <- data.frame(travel_labels, travel_data)
-View(TT_df)
+
 
 ##creation of simple pie chart
-pie(travel_data, labels = travel_labels, main =  "Travle Type")
+pie(travel_data, labels = travel_labels, main =  "Travel Type")
 
 ##adjust simple pie chart to contain percentages
 pct<-round(travel_data/sum(travel_data)*100)
@@ -99,7 +99,7 @@ bar
 pie<-bar+coord_polar("y",start=0)+scale_fill_brewer(palette = "Dark2")+theme_minimal()
 pie
 
-##final ggplot2 code for travel type 
+##final ggplot2 code for gender
 TT_PC <- ggplot(transform(transform(TT_df, travel_data=travel_data/sum(travel_data)), labPos=cumsum(travel_data)-travel_data/3), 
                 aes(x="", y = travel_data, fill = travel_labels)) +
   geom_bar(width = 1, stat = "identity") +
@@ -109,16 +109,16 @@ TT_PC <- ggplot(transform(transform(TT_df, travel_data=travel_data/sum(travel_da
   geom_text(aes(y=labPos, label=scales::percent(travel_data)))
 TT_PC
 
+
 ##NEW TASK
 ##creating pie chart for class of flier
-eco_count <- cat(nrow(Proj_Data[Proj_Data$Class == "Eco", ]))
-ep_count <- cat(nrow(Proj_Data[Proj_Data$Class == "Eco Plus", ]))
-b_count <- cat(nrow(Proj_Data[Proj_Data$Class == "Business", ]))
+eco_count <- cat(nrow(Proj_Data[Proj_Data$Class == "0", ]))
+ep_count <- cat(nrow(Proj_Data[Proj_Data$Class == "1", ]))
+b_count <- cat(nrow(Proj_Data[Proj_Data$Class == "2", ]))
 
-class_labels <- c("Eco", "Eco Plus", "Business")
-class_data <- c(105735, 13606, 10548)
+class_labels <- c("Business", "Eco", "Eco Plus")
+class_data <- c(10546, 105728, 13606)
 class_df <- data.frame(class_labels, class_data)
-View(class_df)
 
 ##creation of simple pie chart
 pie(class_data, labels = class_labels, main =  "Travel Class")
@@ -137,7 +137,7 @@ bar
 pie<-bar+coord_polar("y",start=0)+scale_fill_brewer(palette = "Dark2")+theme_minimal()
 pie
 
-##final ggplot2 code for flier class
+##final ggplot2 code for gender
 CT_PC <- ggplot(transform(transform(class_df, class_data=class_data/sum(class_data)), labPos=cumsum(class_data)-class_data/3), 
                 aes(x="", y = class_data, fill = class_labels)) +
   geom_bar(width = 1, stat = "identity") +
@@ -150,13 +150,12 @@ CT_PC
 
 ##NEW TASK
 ##creating pie chart for arrival delay 
-D_count <- cat(nrow(Proj_Data[Proj_Data$Arrival.Delay.greater.5.Mins == "yes", ]))
-ND_count <- cat(nrow(Proj_Data[Proj_Data$Arrival.Delay.greater.5.Mins == "no", ]))
+D_count <- cat(nrow(Proj_Data[Proj_Data$Arrival.Delay.greater.5.Mins == "0", ]))
+ND_count <- cat(nrow(Proj_Data[Proj_Data$Arrival.Delay.greater.5.Mins == "1", ]))
 
-delay_labels <- c("yes", "no")
-delay_data <- c(44504, 85385)
+delay_labels <- c("no", "yes")
+delay_data <- c(85378, 44502)
 delay_df <- data.frame(delay_labels, delay_data)
-View(delay_df)
 
 ##creation of simple pie chart
 pie(delay_data, labels = delay_labels, main =  "Arrival Delay Greater Than 5 Minutes")
@@ -184,7 +183,3 @@ AD_PC <- ggplot(transform(transform(delay_df, delay_data=delay_data/sum(delay_da
   labs(title = "Arrival Delay w/ Percentages") + 
   geom_text(aes(y=labPos, label=scales::percent(delay_data)))
 AD_PC
-
-
-
-
