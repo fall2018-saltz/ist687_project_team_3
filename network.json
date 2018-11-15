@@ -307,6 +307,16 @@
             ],
             "source": "mathematical_data_exploration.R",
             "target": "ShoppingAmount_scatterplot1.png.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean_data.csv",
+            "target": "map_1_new.R"
         }
     ],
     "nodes": [
@@ -475,6 +485,6 @@
             "name": "map_1_new.R"
         }
     ],
-    "updated_at": "2018-11-15 16:45:51",
+    "updated_at": "2018-11-15 16:46:04",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
