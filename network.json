@@ -306,12 +306,12 @@
         {
             "ports": [
                 {
-                    "output": "plot1",
+                    "output": "ggplot1",
                     "type": "png"
                 }
             ],
             "source": "mathematical_data_exploration.R",
-            "target": "passenger_number_of_flights.png"
+            "target": "passenger_number_of_flights.png.png"
         }
     ],
     "nodes": [
@@ -470,9 +470,9 @@
             "name": "histEatingAndDrinking.png"
         },
         {
-            "name": "passenger_number_of_flights.png"
+            "name": "passenger_number_of_flights.png.png"
         }
     ],
-    "updated_at": "2018-11-15 03:08:08",
+    "updated_at": "2018-11-15 03:19:45",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
