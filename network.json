@@ -311,16 +311,6 @@
         {
             "ports": [
                 {
-                    "input": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean_data.csv",
-            "target": "maps.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "link",
                     "type": "png"
                 }
@@ -367,6 +357,26 @@
             ],
             "source": "maps.R",
             "target": "map5.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean_data.csv",
+            "target": "maps.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "FC_PC",
+                    "type": "png"
+                }
+            ],
+            "source": "piechart.R",
+            "target": "flightdelayPC.png"
         }
     ],
     "nodes": [
@@ -537,8 +547,11 @@
             "desc": "modelling the data using  Random Forest Algorithm",
             "name": "RandomForest.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "flightdelayPC.png"
         }
     ],
-    "updated_at": "2018-11-15 16:58:19",
+    "updated_at": "2018-11-15 17:08:53",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
