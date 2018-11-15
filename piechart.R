@@ -175,7 +175,7 @@ pie<-bar+coord_polar("y",start=0)+scale_fill_brewer(palette = "Dark2")+theme_min
 pie
 
 ##final ggplot2 code for arrival delay
-AD_PC <- ggplot(transform(transform(delay_df, delay_data=delay_data/sum(delay_data)), labPos=cumsum(delay_data)-delay_data/3), 
+AD_PC <- ggplot(transform(transform(delay_df, delay_data=delay_data/sum(delay_data)), labPos=cumsum(delay_data)-delay_data/2), 
                 aes(x="", y = delay_data, fill = delay_labels)) +
   geom_bar(width = 1, stat = "identity") +
   scale_fill_manual(values = c("red", "yellow","blue", "green", "cyan")) +
@@ -183,3 +183,41 @@ AD_PC <- ggplot(transform(transform(delay_df, delay_data=delay_data/sum(delay_da
   labs(title = "Arrival Delay w/ Percentages") + 
   geom_text(aes(y=labPos, label=scales::percent(delay_data)))
 AD_PC
+
+##NEW TASK
+## flight cancelled 
+##NEW TASK
+##creating pie chart for arrival delay 
+nc_count <- cat(nrow(Proj_Data[Proj_Data$Flight.cancelled == "0", ]))
+cancelled_count <- cat(nrow(Proj_Data[Proj_Data$Flight.cancelled == "1", ]))
+
+cancelled_labels <- c("no", "yes")
+cancelled_data <- c(127480, 2400)
+cancelled_df <- data.frame(cancelled_labels, cancelled_data)
+
+##creation of simple pie chart
+pie(cancelled_data, labels = cancelled_labels, main =  "Flight Cancelled")
+
+##adjust simple pie chart to contain percentages
+pct<-round(cancelled_data/sum(cancelled_data)*100)
+label<-paste(cancelled_labels,pct)
+label<-paste(label,"%",sep="")
+pie(cancelled_data,labels = label,col= rainbow(length(label)),main="Flight Canclled w/ Percentages")
+
+
+##ggplot2 pie chart
+bar<-ggplot(cancelled_df,aes(x="",y=cancelled_df$cancelled_data,fill=cancelled_labels))+geom_bar(width=1,stat="identity")
+bar
+
+pie<-bar+coord_polar("y",start=0)+scale_fill_brewer(palette = "Dark2")+theme_minimal()
+pie
+
+##final ggplot2 code for arrival delay
+FC_PC <- ggplot(transform(transform(cancelled_df, cancelled_data=cancelled_data/sum(cancelled_data)), labPos=cumsum(cancelled_data)-cancelled_data/2), 
+                aes(x="", y = cancelled_data, fill = cancelled_labels)) +
+  geom_bar(width = 1, stat = "identity") +
+  scale_fill_manual(values = c("red", "yellow","blue", "green", "cyan")) +
+  coord_polar(theta = "y") +
+  labs(title = "Flight Cancelled w/ Percentages") + 
+  geom_text(aes(y=labPos, label=scales::percent(cancelled_data)))
+FC_PC
