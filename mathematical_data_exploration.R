@@ -30,10 +30,7 @@ legend(x = "right", legend.text
        ,bty="n", inset=c(-0.08,0), xpd = TRUE)
 
 # 2. Shopping.Amount.at.Airport, colored scatterplot
-library(plotly)
-scatterplot1 <- plot_ly(df, x = ~Shopping.Amount.at.Airport, y = ~Satisfaction, type="scatter", text = paste("Shopping.Amount: ", df$Shopping.Amount.at.Airport),
-          mode = "markers", color = ~Shopping.Amount.at.Airport, size = ~Shopping.Amount.at.Airport)
-scatterplot1
+ggplotggplot(df, aes(x=Shopping.Amount.at.Airport, y = Satisfaction, color = Shopping.Amount.at.Airport, size = Shopping.Amount.at.Airport)) + geom_point()
 
 # 3.No.of.Flights.p.a.&Satisfaction
 ggplot1 <- ggplot(df, aes(x = No.of.Flights.p.a., y =Satisfaction, col =No.of.Flights.p.a.)) + geom_point()
