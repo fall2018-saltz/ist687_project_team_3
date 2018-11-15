@@ -81,32 +81,12 @@
         {
             "ports": [
                 {
-                    "input": "raw_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean_data.csv",
-            "target": "mapsY.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "plot3",
                     "type": "png"
                 }
             ],
             "source": "ExplorationA.R",
             "target": "GenderSatisfactions.png"
-        },
-        {
-            "ports": [
-                {
-                    "input": "df",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean_data.csv",
-            "target": "maps_v.R"
         },
         {
             "ports": [
@@ -289,11 +269,6 @@
             "target": "histEatingAndDrinking.png"
         },
         {
-            "ports": [],
-            "source": "mathematical_data_exploration.R",
-            "target": "ShoppingAmount_scatterplot1.png"
-        },
-        {
             "ports": [
                 {
                     "output": "ggplot1",
@@ -326,52 +301,22 @@
         {
             "ports": [
                 {
-                    "output": "link",
+                    "output": "ggplot0",
                     "type": "png"
                 }
             ],
-            "source": "maps_v.R",
-            "target": "map1.png"
+            "source": "mathematical_data_exploration.R",
+            "target": "ShoppingAmount_scatterplot1.png.png"
         },
         {
             "ports": [
                 {
-                    "output": "map1",
-                    "type": "png"
+                    "input": "clean_data",
+                    "type": "csv"
                 }
             ],
-            "source": "maps_v.R",
-            "target": "map2.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "map33",
-                    "type": "png"
-                }
-            ],
-            "source": "maps_v.R",
-            "target": "map3.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "map44",
-                    "type": "png"
-                }
-            ],
-            "source": "maps_v.R",
-            "target": "map4.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "map55",
-                    "type": "png"
-                }
-            ],
-            "source": "maps_v.R",
-            "target": "map5.png"
+            "source": "clean_data.csv",
+            "target": "maps.R"
         }
     ],
     "nodes": [
@@ -412,22 +357,10 @@
             "name": "GenderSatisfactions.png"
         },
         {
-            "assigned_to": "ywang",
-            "desc": "Using maps for visualization ",
-            "name": "mapsY.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "AgeSatisfaction.png"
         },
         {
             "name": "PriceSensitivitySatisfaction.png"
-        },
-        {
-            "assigned_to": "ywang",
-            "desc": "-descriptive statistics\r\n-correlation tables",
-            "name": "mathematical_data_exploration.R",
-            "task_status": "in progress"
         },
         {
             "assigned_to": "amgadge",
@@ -488,9 +421,6 @@
             "name": "arrival_delay_piechart.png"
         },
         {
-            "name": "ShoppingAmount_scatterplot1.png"
-        },
-        {
             "name": "eatingAndDrinkingScater.png"
         },
         {
@@ -542,12 +472,21 @@
             "name": "map5.png"
         },
         {
-            "assigned_to": "vijetmuley",
-            "desc": "Exploration and visualizing No of flights p.a, %flights with other, No of other loyalty cards, Shopping amount",
-            "name": "maps_v.R",
+            "name": "ShoppingAmount_scatterplot1.png.png"
+        },
+        {
+            "assigned_to": "cjkarasi",
+            "desc": "",
+            "name": "maps.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "ywang",
+            "desc": "-descriptive statistics\r\n-correlation tables",
+            "name": "mathematical_data_exploration.R",
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-15 04:58:35",
+    "updated_at": "2018-11-15 16:56:32",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
