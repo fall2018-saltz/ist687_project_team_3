@@ -299,19 +299,19 @@
             "target": "histEatingAndDrinking.png"
         },
         {
+            "ports": [],
+            "source": "mathematical_data_exploration.R",
+            "target": "ShoppingAmount_scatterplot1.png"
+        },
+        {
             "ports": [
                 {
-                    "output": "scatterplor1",
+                    "output": "scatterplot1",
                     "type": "png"
                 }
             ],
             "source": "mathematical_data_exploration.R",
             "target": "plot5364.png"
-        },
-        {
-            "ports": [],
-            "source": "mathematical_data_exploration.R",
-            "target": "ShoppingAmount_scatterplot1.png"
         }
     ],
     "nodes": [
@@ -473,6 +473,6 @@
             "name": "histEatingAndDrinking.png"
         }
     ],
-    "updated_at": "2018-11-15 03:03:07",
+    "updated_at": "2018-11-15 03:04:23",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
