@@ -311,66 +311,6 @@
         {
             "ports": [
                 {
-                    "input": "df",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean_data.csv",
-            "target": "map_1_new.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "link",
-                    "type": "png"
-                }
-            ],
-            "source": "map_1_new.R",
-            "target": "map1.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "map1",
-                    "type": "png"
-                }
-            ],
-            "source": "map_1_new.R",
-            "target": "map2.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "map3",
-                    "type": "png"
-                }
-            ],
-            "source": "map_1_new.R",
-            "target": "map3.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "map44",
-                    "type": "png"
-                }
-            ],
-            "source": "map_1_new.R",
-            "target": "map4.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "map55",
-                    "type": "png"
-                }
-            ],
-            "source": "map_1_new.R",
-            "target": "map5.png"
-        },
-        {
-            "ports": [
-                {
                     "input": "clean_data",
                     "type": "csv"
                 }
@@ -541,16 +481,12 @@
             "name": "ShoppingAmount_scatterplot1.png.png"
         },
         {
-            "assigned_to": "vijetmuley",
+            "assigned_to": "cjkarasi",
             "desc": "",
-            "name": "map_1_new.R",
+            "name": "maps.R",
             "task_status": "in progress"
-        },
-        {
-            "desc": "",
-            "name": "maps.R"
         }
     ],
-    "updated_at": "2018-11-15 16:53:48",
+    "updated_at": "2018-11-15 16:55:19",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
