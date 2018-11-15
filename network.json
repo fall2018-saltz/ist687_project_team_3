@@ -242,6 +242,16 @@
             ],
             "source": "mathematical_data_exploration.R",
             "target": "ShoppingAmount_scatterplot1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "eatingScatterPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "ExplorationCK.R",
+            "target": "eatingAndDrinkingScater.png"
         }
     ],
     "nodes": [
@@ -385,6 +395,6 @@
             "name": "eatingAndDrinkingScater.png"
         }
     ],
-    "updated_at": "2018-11-15 02:26:19",
+    "updated_at": "2018-11-15 02:26:54",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
