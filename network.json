@@ -538,8 +538,11 @@
             "desc": "Exploration and visualizing No of flights p.a, %flights with other, No of other loyalty cards, Shopping amount",
             "name": "maps_v.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "ShoppingAmount_scatterplot1.png.png"
         }
     ],
-    "updated_at": "2018-11-15 16:26:52",
+    "updated_at": "2018-11-15 16:26:57",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
