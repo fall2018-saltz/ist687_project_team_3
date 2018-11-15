@@ -1,6 +1,6 @@
 
 library(dplyr)
-myData <- clean_data
+myData <- read.csv("clean_data.csv")
 
 #Histogram for eating and drinking variable
 hist(myData$Eating.and.Drinking.at.Airport, breaks = 20, xlab = "Eating/Drinking at Airport", main = "Histogram Eating and Drinking At Airport")
