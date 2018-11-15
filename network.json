@@ -262,6 +262,16 @@
             ],
             "source": "ExplorationCK.R",
             "target": "departureDelayScatter.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "monthBarChart",
+                    "type": "png"
+                }
+            ],
+            "source": "ExplorationCK.R",
+            "target": "monthBarChart.png"
         }
     ],
     "nodes": [
@@ -411,6 +421,6 @@
             "name": "monthBarChart.png"
         }
     ],
-    "updated_at": "2018-11-15 02:46:10",
+    "updated_at": "2018-11-15 02:46:25",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
