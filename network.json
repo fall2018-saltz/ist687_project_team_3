@@ -367,6 +367,16 @@
             ],
             "source": "maps_v.R",
             "target": "map5.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "ggplot0",
+                    "type": "png"
+                }
+            ],
+            "source": "mathematical_data_exploration.R",
+            "target": "ShoppingAmount_scatterplot1.png.png"
         }
     ],
     "nodes": [
@@ -543,6 +553,6 @@
             "name": "ShoppingAmount_scatterplot1.png.png"
         }
     ],
-    "updated_at": "2018-11-15 16:26:57",
+    "updated_at": "2018-11-15 16:27:09",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
