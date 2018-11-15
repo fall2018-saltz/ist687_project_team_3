@@ -432,8 +432,11 @@
         },
         {
             "name": "classBarChart.png"
+        },
+        {
+            "name": "scheduledBarChart.png"
         }
     ],
-    "updated_at": "2018-11-15 02:46:55",
+    "updated_at": "2018-11-15 02:47:22",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
