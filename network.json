@@ -282,6 +282,16 @@
             ],
             "source": "ExplorationCK.R",
             "target": "classBarChart.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scheduledBarChart",
+                    "type": "png"
+                }
+            ],
+            "source": "ExplorationCK.R",
+            "target": "scheduledBarChart.png"
         }
     ],
     "nodes": [
@@ -437,6 +447,6 @@
             "name": "scheduledBarChart.png"
         }
     ],
-    "updated_at": "2018-11-15 02:47:22",
+    "updated_at": "2018-11-15 02:47:36",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
