@@ -70,4 +70,5 @@ plot5<- ggplot(df,aes(Year.of.First.Flight,fill=Satisfaction))+
 
 str(df)
 
-df%>%
+df %>%
+    group_by(Class) %>%
