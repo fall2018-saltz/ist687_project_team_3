@@ -252,6 +252,16 @@
             ],
             "source": "ExplorationCK.R",
             "target": "eatingAndDrinkingScater.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "delayScatterPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "ExplorationCK.R",
+            "target": "departureDelayScatter.png"
         }
     ],
     "nodes": [
@@ -398,6 +408,6 @@
             "name": "departureDelayScatter.png"
         }
     ],
-    "updated_at": "2018-11-15 02:44:56",
+    "updated_at": "2018-11-15 02:45:35",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
