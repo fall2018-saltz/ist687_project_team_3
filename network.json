@@ -363,12 +363,6 @@
             "name": "PriceSensitivitySatisfaction.png"
         },
         {
-            "assigned_to": "ywang",
-            "desc": "-descriptive statistics\r\n-correlation tables",
-            "name": "mathematical_data_exploration.R",
-            "task_status": "in progress"
-        },
-        {
             "assigned_to": "amgadge",
             "desc": "-visualize final results of data analysis",
             "name": "final_visualization.R",
@@ -485,8 +479,14 @@
             "desc": "",
             "name": "maps.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "ywang",
+            "desc": "-descriptive statistics\r\n-correlation tables",
+            "name": "mathematical_data_exploration.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-15 16:55:19",
+    "updated_at": "2018-11-15 16:56:32",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
