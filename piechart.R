@@ -146,3 +146,40 @@ CT_PC <- ggplot(transform(transform(class_df, class_data=class_data/sum(class_da
   labs(title = "Class Type w/ Percentages") + 
   geom_text(aes(y=labPos, label=scales::percent(class_data)))
 CT_PC
+
+
+##NEW TASK
+##creating pie chart for arrival delay 
+D_count <- cat(nrow(Proj_Data[Proj_Data$Arrival.Delay.greater.5.Mins == "0", ]))
+ND_count <- cat(nrow(Proj_Data[Proj_Data$Arrival.Delay.greater.5.Mins == "1", ]))
+
+delay_labels <- c("no", "yes")
+delay_data <- c(85378, 44502)
+delay_df <- data.frame(delay_labels, delay_data)
+
+##creation of simple pie chart
+pie(delay_data, labels = delay_labels, main =  "Arrival Delay Greater Than 5 Minutes")
+
+##adjust simple pie chart to contain percentages
+pct<-round(delay_data/sum(delay_data)*100)
+label<-paste(delay_labels,pct)
+label<-paste(label,"%",sep="")
+pie(delay_data,labels = label,col= rainbow(length(label)),main="Arrival Delay w/ Percentages")
+
+
+##ggplot2 pie chart
+bar<-ggplot(delay_df,aes(x="",y=delay_df$delay_data,fill=delay_labels))+geom_bar(width=1,stat="identity")
+bar
+
+pie<-bar+coord_polar("y",start=0)+scale_fill_brewer(palette = "Dark2")+theme_minimal()
+pie
+
+##final ggplot2 code for arrival delay
+AD_PC <- ggplot(transform(transform(delay_df, delay_data=delay_data/sum(delay_data)), labPos=cumsum(delay_data)-delay_data/3), 
+                aes(x="", y = delay_data, fill = delay_labels)) +
+  geom_bar(width = 1, stat = "identity") +
+  scale_fill_manual(values = c("red", "yellow","blue", "green", "cyan")) +
+  coord_polar(theta = "y") +
+  labs(title = "Arrival Delay w/ Percentages") + 
+  geom_text(aes(y=labPos, label=scales::percent(delay_data)))
+AD_PC
