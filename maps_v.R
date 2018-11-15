@@ -5,12 +5,11 @@ library(ggmap)
 library(gdata)
 library(dplyr)
 
-df <- read.csv("clean_data.csv",stringsAsFactors=FALSE)
-df <- df[!((df$Origin.State=="U.S. Pacific Trust Territories and Possessions")|(df$Destination.State=="U.S. Pacific Trust Territories and Possessions")),]
+df2 <- df
+df2 <- df2[!((df2$Origin.State=="U.S. Pacific Trust Territories and Possessions")|(df2$Destination.State=="U.S. Pacific Trust Territories and Possessions")),]
 
-origin_states_low <- tolower(unique(df$Origin.State))
-dest_states_low <- tolower(unique(df$Destination.State))
-print(unique(df$Origin.State))
+origin_states_low <- tolower(unique(df2$Origin.State))
+dest_states_low <- tolower(unique(df2$Destination.State))
 
 source_fl <- unique(df$Orgin.City)
 dest_fl <- unique(df$Destination.City)
@@ -22,9 +21,9 @@ usa <- map_data("state")
 
 df1 <- data.frame(origin_states_low,dest_states_low,stringsAsFactors = FALSE)
 
-arr <- df %>% select(Origin.State,Departure.Delay.in.Minutes) %>% group_by(Origin.State) %>% summarise(total_delay=mean(Departure.Delay.in.Minutes,na.rm=TRUE))
+arr <- df2 %>% select(Origin.State,Departure.Delay.in.Minutes) %>% group_by(Origin.State) %>% summarise(total_delay=mean(Departure.Delay.in.Minutes,na.rm=TRUE))
 
-arr1 <- df %>% select(Destination.State,Arrival.Delay.in.Minutes) %>% group_by(Destination.State) %>% summarise(total_delay_arri=mean(Arrival.Delay.in.Minutes,na.rm=TRUE))
+arr1 <- df2 %>% select(Destination.State,Arrival.Delay.in.Minutes) %>% group_by(Destination.State) %>% summarise(total_delay_arri=mean(Arrival.Delay.in.Minutes,na.rm=TRUE))
 
 arr$Origin.State <- tolower(arr$Origin.State)
 arr1$Destination.State <- tolower(arr1$Destination.State)
