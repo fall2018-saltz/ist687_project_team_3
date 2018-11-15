@@ -81,16 +81,6 @@
         {
             "ports": [
                 {
-                    "input": "raw_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean_data.csv",
-            "target": "mapsY.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "plot3",
                     "type": "png"
                 }
@@ -417,12 +407,6 @@
             "name": "GenderSatisfactions.png"
         },
         {
-            "assigned_to": "ywang",
-            "desc": "Using maps for visualization ",
-            "name": "mapsY.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "AgeSatisfaction.png"
         },
         {
@@ -553,6 +537,6 @@
             "name": "ShoppingAmount_scatterplot1.png.png"
         }
     ],
-    "updated_at": "2018-11-15 16:27:09",
+    "updated_at": "2018-11-15 16:33:23",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
