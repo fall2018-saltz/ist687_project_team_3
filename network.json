@@ -302,16 +302,6 @@
             "ports": [],
             "source": "mathematical_data_exploration.R",
             "target": "ShoppingAmount_scatterplot1.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "plot1",
-                    "type": "png"
-                }
-            ],
-            "source": "mathematical_data_exploration.R",
-            "target": "passenger_number_of_flights.png"
         }
     ],
     "nodes": [
@@ -468,11 +458,8 @@
         },
         {
             "name": "histEatingAndDrinking.png"
-        },
-        {
-            "name": "passenger_number_of_flights.png"
         }
     ],
-    "updated_at": "2018-11-15 03:08:08",
+    "updated_at": "2018-11-15 03:19:23",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
