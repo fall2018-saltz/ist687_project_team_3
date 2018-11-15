@@ -108,3 +108,41 @@ TT_PC <- ggplot(transform(transform(TT_df, travel_data=travel_data/sum(travel_da
   labs(title = "Travel Type w/ Percentages") + 
   geom_text(aes(y=labPos, label=scales::percent(travel_data)))
 TT_PC
+
+
+##NEW TASK
+##creating pie chart for class of flier
+eco_count <- cat(nrow(Proj_Data[Proj_Data$Class == "0", ]))
+ep_count <- cat(nrow(Proj_Data[Proj_Data$Class == "1", ]))
+b_count <- cat(nrow(Proj_Data[Proj_Data$Class == "2", ]))
+
+class_labels <- c("Business", "Eco", "Eco Plus")
+class_data <- c(10546, 105728, 13606)
+class_df <- data.frame(class_labels, class_data)
+
+##creation of simple pie chart
+pie(class_data, labels = class_labels, main =  "Travel Class")
+
+##adjust simple pie chart to contain percentages
+pct<-round(class_data/sum(class_data)*100)
+label<-paste(class_labels,pct)
+label<-paste(label,"%",sep="")
+pie(class_data,labels = label,col= rainbow(length(label)),main="Class Type with Percentages")
+
+
+##ggplot2 pie chart
+bar<-ggplot(class_df,aes(x="",y=class_df$class_data,fill=class_labels))+geom_bar(width=1,stat="identity")
+bar
+
+pie<-bar+coord_polar("y",start=0)+scale_fill_brewer(palette = "Dark2")+theme_minimal()
+pie
+
+##final ggplot2 code for gender
+CT_PC <- ggplot(transform(transform(class_df, class_data=class_data/sum(class_data)), labPos=cumsum(class_data)-class_data/3), 
+                aes(x="", y = class_data, fill = class_labels)) +
+  geom_bar(width = 1, stat = "identity") +
+  scale_fill_manual(values = c("red", "yellow","blue", "green", "cyan")) +
+  coord_polar(theta = "y") +
+  labs(title = "Class Type w/ Percentages") + 
+  geom_text(aes(y=labPos, label=scales::percent(class_data)))
+CT_PC
