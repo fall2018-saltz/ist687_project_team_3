@@ -224,11 +224,6 @@
             "target": "plot3400.png"
         },
         {
-            "ports": [],
-            "source": "mathematical_data_exploration.R",
-            "target": "plot4068.png"
-        },
-        {
             "ports": [
                 {
                     "output": "eatingScatterPlot",
@@ -437,9 +432,6 @@
             "name": "plot3400.png"
         },
         {
-            "name": "plot4068.png"
-        },
-        {
             "name": "ShoppingAmount_scatterplot1.png"
         },
         {
@@ -473,6 +465,6 @@
             "name": "passenger_number_of_flights.png.png"
         }
     ],
-    "updated_at": "2018-11-15 03:19:45",
+    "updated_at": "2018-11-15 03:25:04",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
