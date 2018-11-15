@@ -219,16 +219,6 @@
             "target": "arrival_delay_piechart.png"
         },
         {
-            "ports": [],
-            "source": "mathematical_data_exploration.R",
-            "target": "plot3400.png"
-        },
-        {
-            "ports": [],
-            "source": "mathematical_data_exploration.R",
-            "target": "plot4068.png"
-        },
-        {
             "ports": [
                 {
                     "output": "eatingScatterPlot",
@@ -312,6 +302,26 @@
             ],
             "source": "mathematical_data_exploration.R",
             "target": "passenger_number_of_flights.png.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "ggplot2",
+                    "type": "png"
+                }
+            ],
+            "source": "mathematical_data_exploration.R",
+            "target": "Number_of_other_Airlines.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "ggplot3",
+                    "type": "png"
+                }
+            ],
+            "source": "mathematical_data_exploration.R",
+            "target": "No_of_other_Loyalty_Cards.png"
         }
     ],
     "nodes": [
@@ -434,12 +444,6 @@
             "name": "arrival_delay_piechart.png"
         },
         {
-            "name": "plot3400.png"
-        },
-        {
-            "name": "plot4068.png"
-        },
-        {
             "name": "ShoppingAmount_scatterplot1.png"
         },
         {
@@ -471,8 +475,14 @@
         },
         {
             "name": "passenger_number_of_flights.png.png"
+        },
+        {
+            "name": "Number_of_other_Airlines.png"
+        },
+        {
+            "name": "No_of_other_Loyalty_Cards.png"
         }
     ],
-    "updated_at": "2018-11-15 03:19:45",
+    "updated_at": "2018-11-15 03:29:19",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
