@@ -317,6 +317,16 @@
             ],
             "source": "clean_data.csv",
             "target": "maps.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "link",
+                    "type": "png"
+                }
+            ],
+            "source": "maps.R",
+            "target": "map1.png"
         }
     ],
     "nodes": [
@@ -487,6 +497,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-15 16:56:32",
+    "updated_at": "2018-11-15 16:57:07",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
