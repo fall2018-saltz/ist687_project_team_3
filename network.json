@@ -302,16 +302,6 @@
             "ports": [],
             "source": "mathematical_data_exploration.R",
             "target": "ShoppingAmount_scatterplot1.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "scatterplot1",
-                    "type": "png"
-                }
-            ],
-            "source": "mathematical_data_exploration.R",
-            "target": "plot5364.png"
         }
     ],
     "nodes": [
@@ -434,9 +424,6 @@
             "name": "arrival_delay_piechart.png"
         },
         {
-            "name": "plot5364.png"
-        },
-        {
             "name": "plot3400.png"
         },
         {
@@ -473,6 +460,6 @@
             "name": "histEatingAndDrinking.png"
         }
     ],
-    "updated_at": "2018-11-15 03:04:23",
+    "updated_at": "2018-11-15 03:06:08",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
