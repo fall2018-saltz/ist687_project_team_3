@@ -445,8 +445,11 @@
         },
         {
             "name": "scheduledBarChart.png"
+        },
+        {
+            "name": "HistScheduledDepartureHour.png"
         }
     ],
-    "updated_at": "2018-11-15 02:47:36",
+    "updated_at": "2018-11-15 02:53:39",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
