@@ -406,8 +406,11 @@
         },
         {
             "name": "departureDelayScatter.png"
+        },
+        {
+            "name": "monthBarChart.png"
         }
     ],
-    "updated_at": "2018-11-15 02:45:35",
+    "updated_at": "2018-11-15 02:46:10",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
