@@ -322,6 +322,16 @@
             ],
             "source": "mathematical_data_exploration.R",
             "target": "No_of_other_Loyalty_Cards.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "link",
+                    "type": "png"
+                }
+            ],
+            "source": "maps_v.R",
+            "target": "map1.png"
         }
     ],
     "nodes": [
@@ -486,6 +496,6 @@
             "name": "map1.png"
         }
     ],
-    "updated_at": "2018-11-15 04:55:18",
+    "updated_at": "2018-11-15 04:55:57",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
