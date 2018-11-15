@@ -106,7 +106,7 @@
                 }
             ],
             "source": "clean_data.csv",
-            "target": "ExplorationV.R"
+            "target": "maps_v.R"
         },
         {
             "ports": [
@@ -219,24 +219,159 @@
             "target": "arrival_delay_piechart.png"
         },
         {
-            "ports": [],
-            "source": "mathematical_data_exploration.R",
-            "target": "plot5364.png"
+            "ports": [
+                {
+                    "output": "eatingScatterPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "ExplorationCK.R",
+            "target": "eatingAndDrinkingScater.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "delayScatterPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "ExplorationCK.R",
+            "target": "departureDelayScatter.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "monthBarChart",
+                    "type": "png"
+                }
+            ],
+            "source": "ExplorationCK.R",
+            "target": "monthBarChart.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "classBarChart",
+                    "type": "png"
+                }
+            ],
+            "source": "ExplorationCK.R",
+            "target": "classBarChart.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scheduledBarChart",
+                    "type": "png"
+                }
+            ],
+            "source": "ExplorationCK.R",
+            "target": "scheduledBarChart.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histScheduledDepartureHour",
+                    "type": "png"
+                }
+            ],
+            "source": "ExplorationCK.R",
+            "target": "HistScheduledDepartureHour.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histEatingAndDrinking",
+                    "type": "png"
+                }
+            ],
+            "source": "ExplorationCK.R",
+            "target": "histEatingAndDrinking.png"
         },
         {
             "ports": [],
             "source": "mathematical_data_exploration.R",
-            "target": "plot3400.png"
+            "target": "ShoppingAmount_scatterplot1.png"
         },
         {
-            "ports": [],
+            "ports": [
+                {
+                    "output": "ggplot1",
+                    "type": "png"
+                }
+            ],
             "source": "mathematical_data_exploration.R",
-            "target": "plot866.png"
+            "target": "passenger_number_of_flights.png.png"
         },
         {
-            "ports": [],
+            "ports": [
+                {
+                    "output": "ggplot2",
+                    "type": "png"
+                }
+            ],
             "source": "mathematical_data_exploration.R",
-            "target": "plot4068.png"
+            "target": "Number_of_other_Airlines.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "ggplot3",
+                    "type": "png"
+                }
+            ],
+            "source": "mathematical_data_exploration.R",
+            "target": "No_of_other_Loyalty_Cards.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "link",
+                    "type": "png"
+                }
+            ],
+            "source": "maps_v.R",
+            "target": "map1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map1",
+                    "type": "png"
+                }
+            ],
+            "source": "maps_v.R",
+            "target": "map2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map33",
+                    "type": "png"
+                }
+            ],
+            "source": "maps_v.R",
+            "target": "map3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map44",
+                    "type": "png"
+                }
+            ],
+            "source": "maps_v.R",
+            "target": "map4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map55",
+                    "type": "png"
+                }
+            ],
+            "source": "maps_v.R",
+            "target": "map5.png"
         }
     ],
     "nodes": [
@@ -283,12 +418,6 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "cjkarasi",
-            "desc": "Scheduled departure hour, departure delay in minutes, eating and drinking at the airport, class, day of month ",
-            "name": "ExplorationCK.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "AgeSatisfaction.png"
         },
         {
@@ -310,12 +439,6 @@
             "assigned_to": "vijetmuley",
             "desc": "-multiple regression model (step-wise)\r\n-polynomial regressions\r\n-random forest\r\n-Logistics regressions",
             "name": "regression_models.R",
-            "task_status": "not started"
-        },
-        {
-            "assigned_to": "vijetmuley",
-            "desc": "Exploration and visualizing No of flights p.a, %flights with other, No of other loyalty cards, Shopping amount",
-            "name": "ExplorationV.R",
             "task_status": "not started"
         },
         {
@@ -365,18 +488,66 @@
             "name": "arrival_delay_piechart.png"
         },
         {
-            "name": "plot5364.png"
+            "name": "ShoppingAmount_scatterplot1.png"
         },
         {
-            "name": "plot3400.png"
+            "name": "eatingAndDrinkingScater.png"
         },
         {
-            "name": "plot866.png"
+            "name": "departureDelayScatter.png"
         },
         {
-            "name": "plot4068.png"
+            "name": "monthBarChart.png"
+        },
+        {
+            "name": "classBarChart.png"
+        },
+        {
+            "name": "scheduledBarChart.png"
+        },
+        {
+            "name": "HistScheduledDepartureHour.png"
+        },
+        {
+            "assigned_to": "cjkarasi",
+            "desc": "Scheduled departure hour, departure delay in minutes, eating and drinking at the airport, class, day of month ",
+            "name": "ExplorationCK.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "histEatingAndDrinking.png"
+        },
+        {
+            "name": "passenger_number_of_flights.png.png"
+        },
+        {
+            "name": "Number_of_other_Airlines.png"
+        },
+        {
+            "name": "No_of_other_Loyalty_Cards.png"
+        },
+        {
+            "name": "map1.png"
+        },
+        {
+            "name": "map2.png"
+        },
+        {
+            "name": "map3.png"
+        },
+        {
+            "name": "map4.png"
+        },
+        {
+            "name": "map5.png"
+        },
+        {
+            "assigned_to": "vijetmuley",
+            "desc": "Exploration and visualizing No of flights p.a, %flights with other, No of other loyalty cards, Shopping amount",
+            "name": "maps_v.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-14 18:50:32",
+    "updated_at": "2018-11-15 04:58:35",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
