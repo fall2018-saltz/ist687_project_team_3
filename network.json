@@ -311,12 +311,72 @@
         {
             "ports": [
                 {
-                    "input": "clean_data",
+                    "output": "link",
+                    "type": "png"
+                }
+            ],
+            "source": "maps.R",
+            "target": "map1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map1",
+                    "type": "png"
+                }
+            ],
+            "source": "maps.R",
+            "target": "map2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map3",
+                    "type": "png"
+                }
+            ],
+            "source": "maps.R",
+            "target": "map3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map44",
+                    "type": "png"
+                }
+            ],
+            "source": "maps.R",
+            "target": "map4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map55",
+                    "type": "png"
+                }
+            ],
+            "source": "maps.R",
+            "target": "map5.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
                     "type": "csv"
                 }
             ],
             "source": "clean_data.csv",
             "target": "maps.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "FC_PC",
+                    "type": "png"
+                }
+            ],
+            "source": "piechart.R",
+            "target": "flightdelayPC.png"
         }
     ],
     "nodes": [
@@ -363,12 +423,6 @@
             "name": "PriceSensitivitySatisfaction.png"
         },
         {
-            "assigned_to": "ywang",
-            "desc": "-descriptive statistics\r\n-correlation tables",
-            "name": "mathematical_data_exploration.R",
-            "task_status": "in progress"
-        },
-        {
             "assigned_to": "amgadge",
             "desc": "-visualize final results of data analysis",
             "name": "final_visualization.R",
@@ -397,10 +451,6 @@
             "desc": "",
             "name": "piechart.R",
             "task_status": "in progress"
-        },
-        {
-            "desc": "modelling the data using ",
-            "name": "model1.R"
         },
         {
             "assigned_to": "amgadge",
@@ -485,8 +535,23 @@
             "desc": "",
             "name": "maps.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "ywang",
+            "desc": "-descriptive statistics\r\n-correlation tables",
+            "name": "mathematical_data_exploration.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "amgadge",
+            "desc": "modelling the data using  Random Forest Algorithm",
+            "name": "RandomForest.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "flightdelayPC.png"
         }
     ],
-    "updated_at": "2018-11-15 16:55:19",
+    "updated_at": "2018-11-15 17:08:53",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
