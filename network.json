@@ -288,12 +288,6 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "cjkarasi",
-            "desc": "Scheduled departure hour, departure delay in minutes, eating and drinking at the airport, class, day of month ",
-            "name": "ExplorationCK.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "AgeSatisfaction.png"
         },
         {
@@ -380,8 +374,14 @@
         },
         {
             "name": "ShoppingAmount_scatterplot1.png"
+        },
+        {
+            "assigned_to": "cjkarasi",
+            "desc": "Scheduled departure hour, departure delay in minutes, eating and drinking at the airport, class, day of month ",
+            "name": "ExplorationCK.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-14 20:52:47",
+    "updated_at": "2018-11-15 02:20:21",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
