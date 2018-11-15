@@ -367,6 +367,16 @@
             ],
             "source": "clean_data.csv",
             "target": "maps.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "FC_PC",
+                    "type": "png"
+                }
+            ],
+            "source": "piechart.R",
+            "target": "flightdelayPC.png"
         }
     ],
     "nodes": [
@@ -542,6 +552,6 @@
             "name": "flightdelayPC.png"
         }
     ],
-    "updated_at": "2018-11-15 17:08:33",
+    "updated_at": "2018-11-15 17:08:53",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
