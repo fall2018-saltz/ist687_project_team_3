@@ -60,7 +60,7 @@ bar
 pie<-bar+coord_polar("y",start=0)+scale_fill_brewer(palette = "Dark2")+theme_minimal()
 pie
 
-##final ggplot2 code for gender
+##final ggplot2 code for airline status
 AS_PC <- ggplot(transform(transform(AS_df, AS_data=AS_data/sum(AS_data)), labPos=cumsum(AS_data)-AS_data/4), 
                     aes(x="", y = AS_data, fill = AS_labels)) +
   geom_bar(width = 1, stat = "identity") +
