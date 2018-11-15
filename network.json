@@ -322,6 +322,56 @@
             ],
             "source": "mathematical_data_exploration.R",
             "target": "No_of_other_Loyalty_Cards.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "link",
+                    "type": "png"
+                }
+            ],
+            "source": "maps_v.R",
+            "target": "map1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map1",
+                    "type": "png"
+                }
+            ],
+            "source": "maps_v.R",
+            "target": "map2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map33",
+                    "type": "png"
+                }
+            ],
+            "source": "maps_v.R",
+            "target": "map3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map44",
+                    "type": "png"
+                }
+            ],
+            "source": "maps_v.R",
+            "target": "map4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map55",
+                    "type": "png"
+                }
+            ],
+            "source": "maps_v.R",
+            "target": "map5.png"
         }
     ],
     "nodes": [
@@ -477,12 +527,27 @@
             "name": "No_of_other_Loyalty_Cards.png"
         },
         {
+            "name": "map1.png"
+        },
+        {
+            "name": "map2.png"
+        },
+        {
+            "name": "map3.png"
+        },
+        {
+            "name": "map4.png"
+        },
+        {
+            "name": "map5.png"
+        },
+        {
             "assigned_to": "vijetmuley",
             "desc": "Exploration and visualizing No of flights p.a, %flights with other, No of other loyalty cards, Shopping amount",
             "name": "maps_v.R",
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-15 04:53:12",
+    "updated_at": "2018-11-15 04:58:35",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
