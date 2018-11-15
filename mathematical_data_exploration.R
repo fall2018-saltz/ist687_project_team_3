@@ -5,6 +5,9 @@
 # Portions of this code came from Introduction to Data Science
 # but the comments are all original.
 # IST 687. Due is ??, 2018
+library(ggplot2)
+library(stats)
+library(graphics)
 df <- mathematical_exploration
 # Percentage of satisfaction values for different travel types
 BusinessTravel <- tapply(df$Type.of.Travel=="0", df$Satisfaction, sum)
