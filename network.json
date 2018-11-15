@@ -307,66 +307,6 @@
             ],
             "source": "mathematical_data_exploration.R",
             "target": "ShoppingAmount_scatterplot1.png.png"
-        },
-        {
-            "ports": [
-                {
-                    "input": "df",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean_data.csv",
-            "target": "map_v.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "link",
-                    "type": "png"
-                }
-            ],
-            "source": "map_v.R",
-            "target": "map1.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "map1",
-                    "type": "png"
-                }
-            ],
-            "source": "map_v.R",
-            "target": "map2.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "map3",
-                    "type": "png"
-                }
-            ],
-            "source": "map_v.R",
-            "target": "map3.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "map44",
-                    "type": "png"
-                }
-            ],
-            "source": "map_v.R",
-            "target": "map4.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "map55",
-                    "type": "png"
-                }
-            ],
-            "source": "map_v.R",
-            "target": "map5.png"
         }
     ],
     "nodes": [
@@ -529,12 +469,8 @@
         },
         {
             "name": "ShoppingAmount_scatterplot1.png.png"
-        },
-        {
-            "desc": "",
-            "name": "map_v.R"
         }
     ],
-    "updated_at": "2018-11-15 16:43:20",
+    "updated_at": "2018-11-15 16:45:37",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
