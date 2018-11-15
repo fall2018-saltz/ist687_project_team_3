@@ -157,6 +157,101 @@
             ],
             "source": "clean_data.csv",
             "target": "piechart.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barplot1",
+                    "type": "png"
+                }
+            ],
+            "source": "mathematical_data_exploration.R",
+            "target": "TypeofTravel_stackedbarchart.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "gender_PC",
+                    "type": "png"
+                }
+            ],
+            "source": "piechart.R",
+            "target": "gender_piechart.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "AS_PC",
+                    "type": "png"
+                }
+            ],
+            "source": "piechart.R",
+            "target": "airline_status_piechart.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "TT_PC",
+                    "type": "png"
+                }
+            ],
+            "source": "piechart.R",
+            "target": "traveltype_piechart.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "CT_PC",
+                    "type": "png"
+                }
+            ],
+            "source": "piechart.R",
+            "target": "class_type_piechart.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "AD_PC",
+                    "type": "png"
+                }
+            ],
+            "source": "piechart.R",
+            "target": "arrival_delay_piechart.png"
+        },
+        {
+            "ports": [],
+            "source": "mathematical_data_exploration.R",
+            "target": "plot5364.png"
+        },
+        {
+            "ports": [],
+            "source": "mathematical_data_exploration.R",
+            "target": "plot3400.png"
+        },
+        {
+            "ports": [],
+            "source": "mathematical_data_exploration.R",
+            "target": "plot4068.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scatterplot1",
+                    "type": "png"
+                }
+            ],
+            "source": "mathematical_data_exploration.R",
+            "target": "ShoppingAmount_scatterplot1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "eatingScatterPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "ExplorationCK.R",
+            "target": "eatingAndDrinkingScater.png"
         }
     ],
     "nodes": [
@@ -203,22 +298,10 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "cjkarasi",
-            "desc": "Scheduled departure hour, departure delay in minutes, eating and drinking at the airport, class, day of month ",
-            "name": "ExplorationCK.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "AgeSatisfaction.png"
         },
         {
             "name": "PriceSensitivitySatisfaction.png"
-        },
-        {
-            "assigned_to": "amgadge",
-            "desc": "Exploration and visualizing Airline Status, Age, Gender, Price sensitivity and years of flight",
-            "name": "ExplorationA.R",
-            "task_status": "in progress"
         },
         {
             "assigned_to": "ywang",
@@ -242,7 +325,7 @@
             "assigned_to": "vijetmuley",
             "desc": "Exploration and visualizing No of flights p.a, %flights with other, No of other loyalty cards, Shopping amount",
             "name": "ExplorationV.R",
-            "task_status": "not started"
+            "task_status": "in progress"
         },
         {
             "assigned_to": "cjkarasi",
@@ -265,8 +348,53 @@
         {
             "desc": "modelling the data using ",
             "name": "model1.R"
+        },
+        {
+            "assigned_to": "amgadge",
+            "desc": "Exploration and visualizing Airline Status, Age, Gender, Price sensitivity and years of flight",
+            "name": "ExplorationA.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "TypeofTravel_stackedbarchart.png"
+        },
+        {
+            "name": "gender_piechart.png"
+        },
+        {
+            "name": "airline_status_piechart.png"
+        },
+        {
+            "name": "traveltype_piechart.png"
+        },
+        {
+            "name": "class_type_piechart.png"
+        },
+        {
+            "name": "arrival_delay_piechart.png"
+        },
+        {
+            "name": "plot5364.png"
+        },
+        {
+            "name": "plot3400.png"
+        },
+        {
+            "name": "plot4068.png"
+        },
+        {
+            "name": "ShoppingAmount_scatterplot1.png"
+        },
+        {
+            "name": "eatingAndDrinkingScater.png"
+        },
+        {
+            "assigned_to": "cjkarasi",
+            "desc": "Scheduled departure hour, departure delay in minutes, eating and drinking at the airport, class, day of month ",
+            "name": "ExplorationCK.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-08 16:58:28",
+    "updated_at": "2018-11-15 02:36:43",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
