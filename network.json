@@ -405,12 +405,6 @@
             "name": "final_visualization.png"
         },
         {
-            "assigned_to": "amgadge",
-            "desc": "Encoding categorical variables,\r\nseprating date into months and inserting new coloumn as month,\r\nremoving erroneuous rows/ outliers",
-            "name": "cleaning_2.R",
-            "task_status": "validating"
-        },
-        {
             "name": "ageVsSatisfact.png"
         },
         {
@@ -435,22 +429,10 @@
             "task_status": "not started"
         },
         {
-            "assigned_to": "cjkarasi",
-            "desc": "",
-            "name": "bargraph.R",
-            "task_status": "not started"
-        },
-        {
             "assigned_to": "not assigned",
             "desc": "Eating and drinking visualizations",
             "name": "EatingAndDrinking.R",
             "task_status": "not started"
-        },
-        {
-            "assigned_to": "chnegiz",
-            "desc": "",
-            "name": "piechart.R",
-            "task_status": "in progress"
         },
         {
             "assigned_to": "amgadge",
@@ -531,12 +513,6 @@
             "name": "ShoppingAmount_scatterplot1.png.png"
         },
         {
-            "assigned_to": "cjkarasi",
-            "desc": "",
-            "name": "maps.R",
-            "task_status": "in progress"
-        },
-        {
             "assigned_to": "ywang",
             "desc": "-descriptive statistics\r\n-correlation tables",
             "name": "mathematical_data_exploration.R",
@@ -550,8 +526,32 @@
         },
         {
             "name": "flightdelayPC.png"
+        },
+        {
+            "assigned_to": "amgadge",
+            "desc": "Encoding categorical variables,\r\nseprating date into months and inserting new coloumn as month,\r\nremoving erroneuous rows/ outliers",
+            "name": "cleaning_2.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "chnegiz",
+            "desc": "",
+            "name": "piechart.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "cjkarasi",
+            "desc": "",
+            "name": "bargraph.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "vijetmuley",
+            "desc": "",
+            "name": "maps.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-11-15 17:08:53",
+    "updated_at": "2018-11-29 16:33:18",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
