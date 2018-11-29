@@ -32,20 +32,20 @@ mer <- merge(df1,arr,by.x="origin_states_low",by.y="Origin.State",all=TRUE)
 mer <- merge(mer,arr1,by.x="dest_states_low",by.y="Destination.State",all=TRUE)
 
 link <- ggplot(mer,aes(map_id=origin_states_low)) + geom_map(map=usa,aes(fill=mer$total_delay)) + expand_limits(x=usa$long, y=usa$lat) + coord_map()
-#link
+link
 
 df3 <- as.data.frame(dest_states_low,stringsAsFactors = FALSE)
 newdf <- merge(df3,arr1,by.x="dest_states_low",by.y="Destination.State",all=TRUE)
 
 map1 <- ggplot(newdf,aes(map_id=dest_states_low)) + geom_map(map=usa,aes(fill=newdf$total_delay_arri)) + expand_limits(x=usa$long, y=usa$lat) + coord_map()
-#map1
+map1
 
 arr2 <- df %>% select(Satisfaction,Origin.State) %>% group_by(Origin.State) %>% summarise(avg_satisfaction=mean(Satisfaction,na.rm=TRUE))
 arr2$Origin.State <- tolower(arr2$Origin.State)
 mer <- merge(mer,arr2,by.x="origin_states_low",by.y="Origin.State",all=TRUE)
 
 map3 <- ggplot(mer,aes(map_id=origin_states_low)) + geom_map(map=usa,aes(fill=mer$avg_satisfaction)) + expand_limits(x=usa$long, y=usa$lat) + coord_map()
-#map3
+map3
 
 airport <- data.frame(source_co,dest_co)
 airport$origin_states_low <- "?"
@@ -53,10 +53,10 @@ airport <- airport[airport$lon>(-130),]
 airport <- airport[airport$lat>20,]
 
 map33 <- ggplot(mer, aes(map_id=origin_states_low)) + geom_map(map=usa) + expand_limits(x=usa$long, y=usa$lat) + coord_map()
-#map33
+map33
 
 map44 <- map33 + geom_point(data=airport, aes(x=lon,y=lat),color="red")
-#map44
+map44
 
 airport1 <- data.frame(source_co,dest_co)
 airport1$origin_states_low <- "?"
@@ -65,5 +65,4 @@ airport1 <- airport1[airport1$lon.1>(-130),]
 airport1 <- airport1[airport1$lat.1>20,]
 
 map55 <- map33 + geom_point(data=airport1, aes(x=lon.1,y=lat.1),color="blue")
-#map55
-
+map55
