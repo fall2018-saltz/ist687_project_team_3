@@ -1,6 +1,6 @@
 
 #taking satisfaction as an integer
-#df$Satisfaction <- as.integer(as.character(df$Satisfaction))
+df$Satisfaction <- as.integer(as.character(df$Satisfaction))
 
 library(corrplot)
 #df<-na.omit(df)
