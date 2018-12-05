@@ -337,6 +337,11 @@
             ],
             "source": "correlation.R",
             "target": "correlationplot.png"
+        },
+        {
+            "ports": [],
+            "source": "clean_data.csv",
+            "target": "exploration.R"
         }
     ],
     "nodes": [
@@ -511,10 +516,12 @@
             "name": "ecploration.R"
         },
         {
+            "assigned_to": "ywang",
             "desc": "",
-            "name": "exploration.R"
+            "name": "exploration.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-05 20:20:03",
+    "updated_at": "2018-12-05 20:21:59",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
