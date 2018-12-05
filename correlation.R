@@ -1,6 +1,6 @@
 
 #taking satisfaction as an integer
-str(df)
+#str(df)
 df$Satisfaction <- as.integer(df$Satisfaction)
 
 #library(corrplot)
