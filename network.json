@@ -423,12 +423,6 @@
             "task_status": "not started"
         },
         {
-            "assigned_to": "vijetmuley",
-            "desc": "-multiple regression model (step-wise)\r\n-polynomial regressions\r\n-random forest\r\n-Logistics regressions",
-            "name": "regression_models.R",
-            "task_status": "not started"
-        },
-        {
             "assigned_to": "not assigned",
             "desc": "Eating and drinking visualizations",
             "name": "EatingAndDrinking.R",
@@ -550,8 +544,18 @@
             "desc": "",
             "name": "maps.R",
             "task_status": "completed"
+        },
+        {
+            "assigned_to": "vijetmuley",
+            "desc": "-polynomial regressions\r\n-random forest\r\n-Logistics regressions",
+            "name": "regression_models.R",
+            "task_status": "not started"
+        },
+        {
+            "desc": "-multiple regression model (step-wise)",
+            "name": "regression_model.R"
         }
     ],
-    "updated_at": "2018-11-29 16:33:18",
+    "updated_at": "2018-12-05 02:43:03",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
