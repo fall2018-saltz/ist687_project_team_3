@@ -490,10 +490,15 @@
             "task_status": "completed"
         },
         {
+            "assigned_to": "amgadge",
             "desc": "- looked at correlation table before analysis to get idea about the data",
-            "name": "correlation.R"
+            "name": "correlation.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "correlationplot.png"
         }
     ],
-    "updated_at": "2018-12-05 03:18:08",
+    "updated_at": "2018-12-05 03:19:14",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
