@@ -136,7 +136,7 @@
                 }
             ],
             "source": "clean_data.csv",
-            "target": "piechart.R"
+            "target": "ExplorationCN.R"
         },
         {
             "ports": [
@@ -155,7 +155,7 @@
                     "type": "png"
                 }
             ],
-            "source": "piechart.R",
+            "source": "ExplorationCN.R",
             "target": "gender_piechart.png"
         },
         {
@@ -165,7 +165,7 @@
                     "type": "png"
                 }
             ],
-            "source": "piechart.R",
+            "source": "ExplorationCN.R",
             "target": "airline_status_piechart.png"
         },
         {
@@ -175,7 +175,7 @@
                     "type": "png"
                 }
             ],
-            "source": "piechart.R",
+            "source": "ExplorationCN.R",
             "target": "traveltype_piechart.png"
         },
         {
@@ -185,7 +185,7 @@
                     "type": "png"
                 }
             ],
-            "source": "piechart.R",
+            "source": "ExplorationCN.R",
             "target": "class_type_piechart.png"
         },
         {
@@ -195,7 +195,7 @@
                     "type": "png"
                 }
             ],
-            "source": "piechart.R",
+            "source": "ExplorationCN.R",
             "target": "arrival_delay_piechart.png"
         },
         {
@@ -315,7 +315,7 @@
                     "type": "png"
                 }
             ],
-            "source": "maps.R",
+            "source": "explorationVM.R",
             "target": "map1.png"
         },
         {
@@ -325,7 +325,7 @@
                     "type": "png"
                 }
             ],
-            "source": "maps.R",
+            "source": "explorationVM.R",
             "target": "map2.png"
         },
         {
@@ -335,7 +335,7 @@
                     "type": "png"
                 }
             ],
-            "source": "maps.R",
+            "source": "explorationVM.R",
             "target": "map3.png"
         },
         {
@@ -345,7 +345,7 @@
                     "type": "png"
                 }
             ],
-            "source": "maps.R",
+            "source": "explorationVM.R",
             "target": "map4.png"
         },
         {
@@ -355,7 +355,7 @@
                     "type": "png"
                 }
             ],
-            "source": "maps.R",
+            "source": "explorationVM.R",
             "target": "map5.png"
         },
         {
@@ -366,7 +366,7 @@
                 }
             ],
             "source": "clean_data.csv",
-            "target": "maps.R"
+            "target": "explorationVM.R"
         },
         {
             "ports": [
@@ -375,7 +375,7 @@
                     "type": "png"
                 }
             ],
-            "source": "piechart.R",
+            "source": "ExplorationCN.R",
             "target": "flightdelayPC.png"
         }
     ],
@@ -396,12 +396,6 @@
             "name": "YearOfFirstFlightSatisfaction.png"
         },
         {
-            "assigned_to": "cjkarasi",
-            "desc": "-Kernel SVM\r\n-XG Boost\r\n-clustering (k-means)",
-            "name": "classification_models.R",
-            "task_status": "proposed"
-        },
-        {
             "name": "final_visualization.png"
         },
         {
@@ -415,18 +409,6 @@
         },
         {
             "name": "PriceSensitivitySatisfaction.png"
-        },
-        {
-            "assigned_to": "amgadge",
-            "desc": "-visualize final results of data analysis",
-            "name": "final_visualization.R",
-            "task_status": "not started"
-        },
-        {
-            "assigned_to": "amgadge",
-            "desc": "Exploration and visualizing Airline Status, Age, Gender, Price sensitivity and years of flight",
-            "name": "ExplorationA.R",
-            "task_status": "in progress"
         },
         {
             "name": "TypeofTravel_stackedbarchart.png"
@@ -516,21 +498,9 @@
             "task_status": "completed"
         },
         {
-            "assigned_to": "chnegiz",
-            "desc": "",
-            "name": "piechart.R",
-            "task_status": "completed"
-        },
-        {
             "assigned_to": "cjkarasi",
             "desc": "",
             "name": "bargraph.R",
-            "task_status": "completed"
-        },
-        {
-            "assigned_to": "vijetmuley",
-            "desc": "",
-            "name": "maps.R",
             "task_status": "completed"
         },
         {
@@ -550,8 +520,32 @@
             "desc": "-polynomial regressions\r\n-Logistics regressions",
             "name": "regression_models.R",
             "task_status": "not started"
+        },
+        {
+            "assigned_to": "vijetmuley",
+            "desc": "",
+            "name": "explorationVM.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "chnegiz",
+            "desc": "examine distribution of gender, airline status, type of travel, flier class, arrival delay, and flight cancelation ",
+            "name": "ExplorationCN.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "cjkarasi",
+            "desc": "-XG Boost\r\n-clustering (k-means)",
+            "name": "classification_models.R",
+            "task_status": "proposed"
+        },
+        {
+            "assigned_to": "amgadge",
+            "desc": "Exploration and visualizing Airline Status, Age, Gender, Price sensitivity and years of flight",
+            "name": "ExplorationA.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-12-05 02:52:01",
+    "updated_at": "2018-12-05 03:05:16",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
