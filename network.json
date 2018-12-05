@@ -16,7 +16,7 @@
                 }
             ],
             "source": "clean_data.csv",
-            "target": "mathematical_data_exploration.R"
+            "target": "correlations.R"
         },
         {
             "ports": [
@@ -145,7 +145,7 @@
                     "type": "png"
                 }
             ],
-            "source": "mathematical_data_exploration.R",
+            "source": "correlations.R",
             "target": "TypeofTravel_stackedbarchart.png"
         },
         {
@@ -275,7 +275,7 @@
                     "type": "png"
                 }
             ],
-            "source": "mathematical_data_exploration.R",
+            "source": "correlations.R",
             "target": "passenger_number_of_flights.png.png"
         },
         {
@@ -285,7 +285,7 @@
                     "type": "png"
                 }
             ],
-            "source": "mathematical_data_exploration.R",
+            "source": "correlations.R",
             "target": "Number_of_other_Airlines.png"
         },
         {
@@ -295,7 +295,7 @@
                     "type": "png"
                 }
             ],
-            "source": "mathematical_data_exploration.R",
+            "source": "correlations.R",
             "target": "No_of_other_Loyalty_Cards.png"
         },
         {
@@ -305,7 +305,7 @@
                     "type": "png"
                 }
             ],
-            "source": "mathematical_data_exploration.R",
+            "source": "correlations.R",
             "target": "ShoppingAmount_scatterplot1.png.png"
         },
         {
@@ -423,12 +423,6 @@
             "task_status": "not started"
         },
         {
-            "assigned_to": "not assigned",
-            "desc": "Eating and drinking visualizations",
-            "name": "EatingAndDrinking.R",
-            "task_status": "not started"
-        },
-        {
             "assigned_to": "amgadge",
             "desc": "Exploration and visualizing Airline Status, Age, Gender, Price sensitivity and years of flight",
             "name": "ExplorationA.R",
@@ -507,12 +501,6 @@
             "name": "ShoppingAmount_scatterplot1.png.png"
         },
         {
-            "assigned_to": "ywang",
-            "desc": "-descriptive statistics\r\n-correlation tables",
-            "name": "mathematical_data_exploration.R",
-            "task_status": "in progress"
-        },
-        {
             "assigned_to": "amgadge",
             "desc": "modelling the data using  Random Forest Algorithm",
             "name": "RandomForest.R",
@@ -546,16 +534,24 @@
             "task_status": "completed"
         },
         {
-            "assigned_to": "vijetmuley",
-            "desc": "-polynomial regressions\r\n-random forest\r\n-Logistics regressions",
-            "name": "regression_models.R",
-            "task_status": "not started"
+            "assigned_to": "chnegiz",
+            "desc": "-multiple regression model (step-wise)",
+            "name": "regression_model.R",
+            "task_status": "in progress"
         },
         {
-            "desc": "-multiple regression model (step-wise)",
-            "name": "regression_model.R"
+            "assigned_to": "amgadge",
+            "desc": "-descriptive statistics\r\n-correlation tables",
+            "name": "correlations.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "vijetmuley",
+            "desc": "-polynomial regressions\r\n-Logistics regressions",
+            "name": "regression_models.R",
+            "task_status": "not started"
         }
     ],
-    "updated_at": "2018-12-05 02:43:03",
+    "updated_at": "2018-12-05 02:52:01",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
