@@ -339,7 +339,12 @@
             "target": "correlationplot.png"
         },
         {
-            "ports": [],
+            "ports": [
+                {
+                    "input": "df",
+                    "type": "csv"
+                }
+            ],
             "source": "clean_data.csv",
             "target": "exploration.R"
         }
@@ -522,6 +527,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-05 20:21:59",
+    "updated_at": "2018-12-05 20:23:28",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
