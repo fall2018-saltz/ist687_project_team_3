@@ -458,12 +458,6 @@
             "task_status": "completed"
         },
         {
-            "assigned_to": "cjkarasi",
-            "desc": "",
-            "name": "bargraph.R",
-            "task_status": "completed"
-        },
-        {
             "assigned_to": "chnegiz",
             "desc": "-multiple regression model (step-wise)",
             "name": "regression_model.R",
@@ -509,6 +503,6 @@
             "name": "correlationplot.png"
         }
     ],
-    "updated_at": "2018-12-05 03:19:24",
+    "updated_at": "2018-12-05 18:15:51",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
