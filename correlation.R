@@ -1,7 +1,7 @@
 
 #taking satisfaction as an integer
 #str(df)
-df<-na.omit(df)
+
 df$Satisfaction <- as.integer(df$Satisfaction)
 
 #library(corrplot)
