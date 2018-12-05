@@ -407,12 +407,6 @@
             "name": "HistScheduledDepartureHour.png"
         },
         {
-            "assigned_to": "cjkarasi",
-            "desc": "Scheduled departure hour, departure delay in minutes, eating and drinking at the airport, class, day of month ",
-            "name": "ExplorationCK.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "histEatingAndDrinking.png"
         },
         {
@@ -501,8 +495,18 @@
         },
         {
             "name": "correlationplot.png"
+        },
+        {
+            "assigned_to": "cjkarasi",
+            "desc": "Scheduled departure hour, departure delay in minutes, eating and drinking at the airport, class, day of month ",
+            "name": "ExplorationCK.R",
+            "task_status": "completed"
+        },
+        {
+            "desc": "",
+            "name": "yawing.R"
         }
     ],
-    "updated_at": "2018-12-05 18:15:51",
+    "updated_at": "2018-12-05 20:19:12",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
