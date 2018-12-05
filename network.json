@@ -478,8 +478,12 @@
             "desc": "Exploration and visualizing Airline Status, Age, Gender, Price sensitivity and years of flight",
             "name": "ExplorationA.R",
             "task_status": "completed"
+        },
+        {
+            "desc": "- looked at correlation table before analysis to get idea about the data",
+            "name": "correlation.R"
         }
     ],
-    "updated_at": "2018-12-05 03:17:16",
+    "updated_at": "2018-12-05 03:17:50",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
