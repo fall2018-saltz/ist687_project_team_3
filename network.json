@@ -11,16 +11,6 @@
         {
             "ports": [
                 {
-                    "input": "mathematical_exploration",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean_data.csv",
-            "target": "correlations.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "regression_model",
                     "type": "csv"
                 }
@@ -141,16 +131,6 @@
         {
             "ports": [
                 {
-                    "output": "barplot1",
-                    "type": "png"
-                }
-            ],
-            "source": "correlations.R",
-            "target": "TypeofTravel_stackedbarchart.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "gender_PC",
                     "type": "png"
                 }
@@ -267,46 +247,6 @@
             ],
             "source": "ExplorationCK.R",
             "target": "histEatingAndDrinking.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "ggplot1",
-                    "type": "png"
-                }
-            ],
-            "source": "correlations.R",
-            "target": "passenger_number_of_flights.png.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "ggplot2",
-                    "type": "png"
-                }
-            ],
-            "source": "correlations.R",
-            "target": "Number_of_other_Airlines.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "ggplot3",
-                    "type": "png"
-                }
-            ],
-            "source": "correlations.R",
-            "target": "No_of_other_Loyalty_Cards.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "ggplot0",
-                    "type": "png"
-                }
-            ],
-            "source": "correlations.R",
-            "target": "ShoppingAmount_scatterplot1.png.png"
         },
         {
             "ports": [
@@ -510,12 +450,6 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "amgadge",
-            "desc": "-descriptive statistics\r\n-correlation tables",
-            "name": "correlations.R",
-            "task_status": "in progress"
-        },
-        {
             "assigned_to": "vijetmuley",
             "desc": "-polynomial regressions\r\n-Logistics regressions",
             "name": "regression_models.R",
@@ -546,6 +480,6 @@
             "task_status": "completed"
         }
     ],
-    "updated_at": "2018-12-05 03:05:16",
+    "updated_at": "2018-12-05 03:17:16",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
