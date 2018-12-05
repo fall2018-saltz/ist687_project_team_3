@@ -317,6 +317,16 @@
             ],
             "source": "ExplorationCN.R",
             "target": "flightdelayPC.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "type": "csv"
+                }
+            ],
+            "source": "satisfactionSurvey.csv",
+            "target": "correlation.R"
         }
     ],
     "nodes": [
@@ -484,6 +494,6 @@
             "name": "correlation.R"
         }
     ],
-    "updated_at": "2018-12-05 03:17:50",
+    "updated_at": "2018-12-05 03:18:08",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
