@@ -31,3 +31,4 @@ df$Flight.month <- as.factor(format(temp,"%m"))
 #now removing df$flight.date
 df$Flight.date <- NULL
 
+head(df,2)

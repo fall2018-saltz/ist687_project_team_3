@@ -11,16 +11,6 @@
         {
             "ports": [
                 {
-                    "input": "mathematical_exploration",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean_data.csv",
-            "target": "mathematical_data_exploration.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "regression_model",
                     "type": "csv"
                 }
@@ -81,32 +71,12 @@
         {
             "ports": [
                 {
-                    "input": "raw_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean_data.csv",
-            "target": "mapsY.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "plot3",
                     "type": "png"
                 }
             ],
             "source": "ExplorationA.R",
             "target": "GenderSatisfactions.png"
-        },
-        {
-            "ports": [
-                {
-                    "input": "df",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean_data.csv",
-            "target": "ExplorationV.R"
         },
         {
             "ports": [
@@ -156,7 +126,227 @@
                 }
             ],
             "source": "clean_data.csv",
-            "target": "piechart.R"
+            "target": "ExplorationCN.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "gender_PC",
+                    "type": "png"
+                }
+            ],
+            "source": "ExplorationCN.R",
+            "target": "gender_piechart.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "AS_PC",
+                    "type": "png"
+                }
+            ],
+            "source": "ExplorationCN.R",
+            "target": "airline_status_piechart.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "TT_PC",
+                    "type": "png"
+                }
+            ],
+            "source": "ExplorationCN.R",
+            "target": "traveltype_piechart.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "CT_PC",
+                    "type": "png"
+                }
+            ],
+            "source": "ExplorationCN.R",
+            "target": "class_type_piechart.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "AD_PC",
+                    "type": "png"
+                }
+            ],
+            "source": "ExplorationCN.R",
+            "target": "arrival_delay_piechart.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "eatingScatterPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "ExplorationCK.R",
+            "target": "eatingAndDrinkingScater.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "delayScatterPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "ExplorationCK.R",
+            "target": "departureDelayScatter.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "monthBarChart",
+                    "type": "png"
+                }
+            ],
+            "source": "ExplorationCK.R",
+            "target": "monthBarChart.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "classBarChart",
+                    "type": "png"
+                }
+            ],
+            "source": "ExplorationCK.R",
+            "target": "classBarChart.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scheduledBarChart",
+                    "type": "png"
+                }
+            ],
+            "source": "ExplorationCK.R",
+            "target": "scheduledBarChart.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histScheduledDepartureHour",
+                    "type": "png"
+                }
+            ],
+            "source": "ExplorationCK.R",
+            "target": "HistScheduledDepartureHour.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histEatingAndDrinking",
+                    "type": "png"
+                }
+            ],
+            "source": "ExplorationCK.R",
+            "target": "histEatingAndDrinking.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "link",
+                    "type": "png"
+                }
+            ],
+            "source": "explorationVM.R",
+            "target": "map1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map1",
+                    "type": "png"
+                }
+            ],
+            "source": "explorationVM.R",
+            "target": "map2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map3",
+                    "type": "png"
+                }
+            ],
+            "source": "explorationVM.R",
+            "target": "map3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map44",
+                    "type": "png"
+                }
+            ],
+            "source": "explorationVM.R",
+            "target": "map4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map55",
+                    "type": "png"
+                }
+            ],
+            "source": "explorationVM.R",
+            "target": "map5.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean_data.csv",
+            "target": "explorationVM.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "FC_PC",
+                    "type": "png"
+                }
+            ],
+            "source": "ExplorationCN.R",
+            "target": "flightdelayPC.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "type": "csv"
+                }
+            ],
+            "source": "satisfactionSurvey.csv",
+            "target": "correlation.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "correlationplot",
+                    "type": "png"
+                }
+            ],
+            "source": "correlation.R",
+            "target": "correlationplot.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean_data.csv",
+            "target": "exploration.R"
         }
     ],
     "nodes": [
@@ -176,19 +366,7 @@
             "name": "YearOfFirstFlightSatisfaction.png"
         },
         {
-            "assigned_to": "cjkarasi",
-            "desc": "-Kernel SVM\r\n-XG Boost\r\n-clustering (k-means)",
-            "name": "classification_models.R",
-            "task_status": "proposed"
-        },
-        {
             "name": "final_visualization.png"
-        },
-        {
-            "assigned_to": "amgadge",
-            "desc": "Encoding categorical variables,\r\nseprating date into months and inserting new coloumn as month,\r\nremoving erroneuous rows/ outliers",
-            "name": "cleaning_2.R",
-            "task_status": "validating"
         },
         {
             "name": "ageVsSatisfact.png"
@@ -197,76 +375,158 @@
             "name": "GenderSatisfactions.png"
         },
         {
-            "assigned_to": "ywang",
-            "desc": "Using maps for visualization ",
-            "name": "mapsY.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "cjkarasi",
-            "desc": "Scheduled departure hour, departure delay in minutes, eating and drinking at the airport, class, day of month ",
-            "name": "ExplorationCK.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "AgeSatisfaction.png"
         },
         {
             "name": "PriceSensitivitySatisfaction.png"
         },
         {
+            "name": "TypeofTravel_stackedbarchart.png"
+        },
+        {
+            "name": "gender_piechart.png"
+        },
+        {
+            "name": "airline_status_piechart.png"
+        },
+        {
+            "name": "traveltype_piechart.png"
+        },
+        {
+            "name": "class_type_piechart.png"
+        },
+        {
+            "name": "arrival_delay_piechart.png"
+        },
+        {
+            "name": "eatingAndDrinkingScater.png"
+        },
+        {
+            "name": "departureDelayScatter.png"
+        },
+        {
+            "name": "monthBarChart.png"
+        },
+        {
+            "name": "classBarChart.png"
+        },
+        {
+            "name": "scheduledBarChart.png"
+        },
+        {
+            "name": "HistScheduledDepartureHour.png"
+        },
+        {
+            "name": "histEatingAndDrinking.png"
+        },
+        {
+            "name": "passenger_number_of_flights.png.png"
+        },
+        {
+            "name": "Number_of_other_Airlines.png"
+        },
+        {
+            "name": "No_of_other_Loyalty_Cards.png"
+        },
+        {
+            "name": "map1.png"
+        },
+        {
+            "name": "map2.png"
+        },
+        {
+            "name": "map3.png"
+        },
+        {
+            "name": "map4.png"
+        },
+        {
+            "name": "map5.png"
+        },
+        {
+            "name": "ShoppingAmount_scatterplot1.png.png"
+        },
+        {
             "assigned_to": "amgadge",
-            "desc": "Exploration and visualizing Airline Status, Age, Gender, Price sensitivity and years of flight",
-            "name": "ExplorationA.R",
+            "desc": "modelling the data using  Random Forest Algorithm",
+            "name": "RandomForest.R",
             "task_status": "in progress"
         },
         {
-            "assigned_to": "ywang",
-            "desc": "-descriptive statistics\r\n-correlation tables",
-            "name": "mathematical_data_exploration.R",
-            "task_status": "in progress"
+            "name": "flightdelayPC.png"
         },
         {
             "assigned_to": "amgadge",
-            "desc": "-visualize final results of data analysis",
-            "name": "final_visualization.R",
-            "task_status": "not started"
+            "desc": "Encoding categorical variables,\r\nseprating date into months and inserting new coloumn as month,\r\nremoving erroneuous rows/ outliers",
+            "name": "cleaning_2.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "chnegiz",
+            "desc": "-multiple regression model (step-wise)",
+            "name": "regression_model.R",
+            "task_status": "in progress"
         },
         {
             "assigned_to": "vijetmuley",
-            "desc": "-multiple regression model (step-wise)\r\n-polynomial regressions\r\n-random forest\r\n-Logistics regressions",
+            "desc": "-polynomial regressions\r\n-Logistics regressions",
             "name": "regression_models.R",
             "task_status": "not started"
         },
         {
             "assigned_to": "vijetmuley",
-            "desc": "Exploration and visualizing No of flights p.a, %flights with other, No of other loyalty cards, Shopping amount",
-            "name": "ExplorationV.R",
-            "task_status": "not started"
-        },
-        {
-            "assigned_to": "cjkarasi",
             "desc": "",
-            "name": "bargraph.R",
-            "task_status": "not started"
-        },
-        {
-            "assigned_to": "not assigned",
-            "desc": "Eating and drinking visualizations",
-            "name": "EatingAndDrinking.R",
-            "task_status": "not started"
+            "name": "explorationVM.R",
+            "task_status": "completed"
         },
         {
             "assigned_to": "chnegiz",
-            "desc": "",
-            "name": "piechart.R",
+            "desc": "examine distribution of gender, airline status, type of travel, flier class, arrival delay, and flight cancelation ",
+            "name": "ExplorationCN.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "cjkarasi",
+            "desc": "-XG Boost\r\n-clustering (k-means)",
+            "name": "classification_models.R",
+            "task_status": "proposed"
+        },
+        {
+            "assigned_to": "amgadge",
+            "desc": "Exploration and visualizing Airline Status, Age, Gender, Price sensitivity and years of flight",
+            "name": "ExplorationA.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "amgadge",
+            "desc": "- looked at correlation table before analysis to get idea about the data",
+            "name": "correlation.R",
             "task_status": "in progress"
         },
         {
-            "desc": "modelling the data using ",
-            "name": "model1.R"
+            "name": "correlationplot.png"
+        },
+        {
+            "assigned_to": "cjkarasi",
+            "desc": "Scheduled departure hour, departure delay in minutes, eating and drinking at the airport, class, day of month ",
+            "name": "ExplorationCK.R",
+            "task_status": "completed"
+        },
+        {
+            "desc": "",
+            "name": "yawing.R"
+        },
+        {
+            "desc": "",
+            "name": "ecploration.R"
+        },
+        {
+            "assigned_to": "ywang",
+            "desc": "",
+            "name": "exploration.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-08 16:58:28",
+    "updated_at": "2018-12-05 20:23:29",
     "url": "https://github.com/fall2018-saltz/ist687_project_team_3"
 }
