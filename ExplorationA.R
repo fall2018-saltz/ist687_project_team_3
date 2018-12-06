@@ -4,14 +4,14 @@ library(ggplot2)
 ###############################################
 #Exploring based on flight Status
 ###############################################
+df$Satisfaction <- as.factor(as.character(df$Satisfaction))
 df1<- df %>% 
         #filter(Flight.cancelled=='0') %>%
         group_by(Airline.Status) %>%
         summarise(n=n(),mean= mean(as.numeric(Satisfaction)),sd= sd(as.numeric(Satisfaction))
                   ,max= max(as.numeric(Satisfaction)),min= min(as.numeric(Satisfaction)))
 #plotting Satisfaction based on airlineStatus
-plot1 <- ggplot(df,aes(Airline.Status,fill=Satisfaction))+
-                    geom_bar(position="fill")
+plot1 <- ggplot(df,aes(as.character(Airline.Status),fill=Satisfaction))+geom_bar(position='fill')
 #NOTE - in R studio the graph is coloured properly based on Satisfaction
 
 #looking at Satisfaction = 5
@@ -67,3 +67,9 @@ plot5<- ggplot(df,aes(Year.of.First.Flight,fill=Satisfaction))+
   ylab('values')
   # From the plot it can be seen that there is not much difference based on 
 #when was the first flight was taken
+
+str(df)
+
+df %>%
+    group_by(Class) %>%
+    summarise(count= n())
